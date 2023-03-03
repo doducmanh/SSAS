@@ -24,16 +24,21 @@
 ![image](https://user-images.githubusercontent.com/59658937/222782480-526b46cf-19b2-440b-85b4-3ac47b3f90a2.png)
 
 <p></p>
+
 ![image](https://user-images.githubusercontent.com/59658937/222780108-dd24270a-f38f-4f40-aeae-8f965f0c1284.png)
+
 <p></p>
 <b>Model & Measures:</b>
 <p></p>
+
 ![image](https://user-images.githubusercontent.com/59658937/222781186-4f1f9e6d-544a-42e6-8ae8-83d27298c4c6.png)
 ![image](https://user-images.githubusercontent.com/59658937/222781209-67fcd75d-07c1-4832-bb47-34085c40e0e1.png)
 ![image](https://user-images.githubusercontent.com/59658937/222781244-511560a7-4a7c-4d40-ac91-2b972e9c803d.png)
+
 <p></p>
 <b>Manage Roles and Security:</b>
 <p></p>
+
 ![image](https://user-images.githubusercontent.com/59658937/222781289-555ac562-1f5a-44ce-b009-8d19066d97d0.png)
 - add/delete member to role:
 ![image](https://user-images.githubusercontent.com/59658937/222781362-a324f6b8-1de5-43b2-8d00-2723a4b8660a.png)
