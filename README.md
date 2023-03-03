@@ -20,7 +20,9 @@
 <p></p>
 *Due to the company's privacy policy, I cannot share the data details.
 <p></p>
-![image](https://user-images.githubusercontent.com/59658937/222782176-70f6e4ff-3043-495d-8076-2519099e760b.png)
+
+![image](https://user-images.githubusercontent.com/59658937/222782480-526b46cf-19b2-440b-85b4-3ac47b3f90a2.png)
+
 <p></p>
 ![image](https://user-images.githubusercontent.com/59658937/222780108-dd24270a-f38f-4f40-aeae-8f965f0c1284.png)
 <p></p>
