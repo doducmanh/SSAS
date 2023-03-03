@@ -1,6 +1,7 @@
 # SSAS
 <b>Summary:</b>
 <p></p>
+
 - Our company have many data sources from excel (almost), outlook, CORE system,...
 - With data from excel, outlook,... we conduct ETL by VBA(macro), Power Query, then insert tables to database.
 - IT provide 11 main tables for my deparment, they will run job insert/delete to refresh table everyday.
@@ -8,13 +9,16 @@
 - We create Views, Stored procedure, Functions, Table,....Store procedure run job to add data to tables daily.
 - Between Tabular and Multidimensional Model, we choose build Tabular Model with database from SQL Server and deploy to SSAS server.
 - using Row Level Security (RLS) to manage AD's role to access, view reports on Power Bi. 
+
 <p></p>
 <b>Tool:</b>
 <p></p>
+
 - Data Processing, ETL: VBA(macro), Power Query, SSIS.
 - Database: SQL Server
 - Analysis service: SSAS, Visual Studio (Tabular Model)
 - Visualization: Power BI Desktop Report Server
+
 <p></p>
 <b>Model:</b>
 <p></p>
