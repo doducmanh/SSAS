@@ -1,0 +1,6 @@
+{
+  "name": "MonthnYear",
+  "dataType": "int64",
+  "sourceColumn": "MonthnYear",
+  "sourceProviderType": "Integer"
+}

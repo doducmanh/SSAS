@@ -1,0 +1,5 @@
+{
+  "name": "Current_Grade",
+  "dataType": "string",
+  "sourceColumn": "Current_Grade"
+}

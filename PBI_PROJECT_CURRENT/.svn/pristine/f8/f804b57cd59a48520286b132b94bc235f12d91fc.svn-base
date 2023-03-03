@@ -1,0 +1,14 @@
+{
+  "name": "CC_60Days",
+  "expression": [
+    "",
+    "VAR startdate = MIN(DimAgent[Date_Appointed])",
+    "VAR enddate = MAX(DimAgent[Date_Appointed])",
+    "RETURN",
+    "CALCULATE(SUM(Cal_AD_Daily_Policy[CountPolicy]),",
+    "ALLEXCEPT(Cal_AD_Daily_Policy,Cal_AD_Daily_Policy[Issuing Agent]),",
+    "Cal_AD_Daily_Policy[Date_Appointed] >= startdate && Cal_AD_Daily_Policy[Date_Appointed] <= enddate,",
+    "Cal_AD_Daily_Policy[DateDif] <=60 && Cal_AD_Daily_Policy[DateDif] >=0)"
+  ],
+  "formatString": "G"
+}

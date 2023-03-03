@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "Cut-off Calendar",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "SWITCH(TRUE(),",
+    "Cal_AD_Premium[DateInt]<20220101,FORMAT(Cal_AD_Premium[Collected Date],\"YYYYMM\"),",
+    "Cal_AD_Premium[DateInt]<=20220127,\"202201\",",
+    "Cal_AD_Premium[DateInt]<=20220228,\"202202\",",
+    "Cal_AD_Premium[DateInt]<=20220329,\"202203\",",
+    "Cal_AD_Premium[DateInt]<=20220429,\"202204\",",
+    "Cal_AD_Premium[DateInt]<=20220531,\"202205\",",
+    "Cal_AD_Premium[DateInt]<=20220630,\"202206\",",
+    "Cal_AD_Premium[DateInt]<=20220731,\"202207\",",
+    "Cal_AD_Premium[DateInt]<=20220831,\"202208\",",
+    "Cal_AD_Premium[DateInt]<=20220930,\"202209\",",
+    "Cal_AD_Premium[DateInt]<=20221031,\"202210\",",
+    "Cal_AD_Premium[DateInt]<=20221130,\"202211\",",
+    "Cal_AD_Premium[DateInt]<=20221231,\"202212\",",
+    "FORMAT(Cal_AD_Premium[Collected Date],\"YYYYMM\"))"
+  ]
+}

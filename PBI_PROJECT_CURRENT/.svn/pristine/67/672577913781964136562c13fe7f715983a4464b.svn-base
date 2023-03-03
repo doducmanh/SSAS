@@ -1,0 +1,6 @@
+{
+  "name": "FREQUENCY",
+  "dataType": "string",
+  "sourceColumn": "FREQUENCY",
+  "sourceProviderType": "Char"
+}

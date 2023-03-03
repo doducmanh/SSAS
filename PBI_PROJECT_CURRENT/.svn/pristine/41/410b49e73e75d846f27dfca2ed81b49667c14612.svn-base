@@ -1,0 +1,7 @@
+{
+  "name": "REINS_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "REINS_DATE",
+  "formatString": "General Date",
+  "sourceProviderType": "DBDate"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FM_Agent_Name",
+  "dataType": "string",
+  "sourceColumn": "FM_Agent_Name",
+  "sourceProviderType": "WChar"
+}

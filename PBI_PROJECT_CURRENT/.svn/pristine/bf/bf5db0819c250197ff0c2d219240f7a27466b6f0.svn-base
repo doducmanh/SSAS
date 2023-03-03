@@ -1,0 +1,12 @@
+{
+  "name": "SqlServer PowerBI",
+  "connectionString": "Provider=SQLNCLI11;Data Source=10.9.2.64\\pbirs;Persist Security Info=false;User ID=PHUHUNGLIFE\\vsql0108;Integrated Security=SSPI;Initial Catalog=PowerBI",
+  "impersonationMode": "impersonateAccount",
+  "account": "phuhunglife\\vsql0108",
+  "annotations": [
+    {
+      "name": "ConnectionEditUISource",
+      "value": "SqlServer"
+    }
+  ]
+}

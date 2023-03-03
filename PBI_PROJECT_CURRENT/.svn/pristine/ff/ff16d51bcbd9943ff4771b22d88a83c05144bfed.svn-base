@@ -1,0 +1,5 @@
+{
+  "name": "Area Code",
+  "dataType": "string",
+  "sourceColumn": "Area Code"
+}

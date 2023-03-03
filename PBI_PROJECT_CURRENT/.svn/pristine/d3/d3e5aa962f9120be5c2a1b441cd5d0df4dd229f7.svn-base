@@ -1,0 +1,8 @@
+{
+  "name": "d199b493-a612-4713-bb6f-541fe944ef3a",
+  "fromTable": "Cal_AD_K2",
+  "fromColumn": "ID_Historical",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID",
+  "isActive": false
+}

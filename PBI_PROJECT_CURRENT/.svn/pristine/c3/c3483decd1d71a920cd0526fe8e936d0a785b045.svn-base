@@ -1,0 +1,7 @@
+{
+  "name": "Y2 Actual",
+  "expression": [
+    " SWITCH(IF ( HASONEVALUE ( 'Structure'[Choose Structure]), VALUES ('Structure'[Choose Structure]) ),",
+    "\"Current\",[Y2 Actual Current],\"Last14M\",[Y2 Actual History])"
+  ]
+}

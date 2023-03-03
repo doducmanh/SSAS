@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Check_SFC",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'DimAgentSFC'[SFC]"
+}

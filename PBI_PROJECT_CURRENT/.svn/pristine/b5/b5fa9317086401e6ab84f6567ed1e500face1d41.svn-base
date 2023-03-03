@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "SFC",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "LOOKUPVALUE(Agent_List[SFC],Agent_List[Agent_Number],Cal_AD_K2[AGENT NO])"
+}

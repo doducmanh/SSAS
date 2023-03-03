@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "ID DATE",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "expression": "DATEVALUE(FactCSSubmission[TRANS_DATE])",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

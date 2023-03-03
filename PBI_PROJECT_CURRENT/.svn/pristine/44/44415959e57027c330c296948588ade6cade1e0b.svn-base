@@ -1,0 +1,8 @@
+{
+  "name": "FYP_Net 2",
+  "expression": [
+    "",
+    "CALCULATE(SUM(Cal_AD_Premium[FYP]),Cal_AD_Premium[AFYP]<>0)"
+  ],
+  "formatString": "G"
+}

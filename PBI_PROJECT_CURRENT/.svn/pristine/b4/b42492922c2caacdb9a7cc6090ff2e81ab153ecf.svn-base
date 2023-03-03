@@ -1,0 +1,6 @@
+{
+  "name": "DateDif",
+  "dataType": "int64",
+  "sourceColumn": "DateDif",
+  "formatString": "0"
+}

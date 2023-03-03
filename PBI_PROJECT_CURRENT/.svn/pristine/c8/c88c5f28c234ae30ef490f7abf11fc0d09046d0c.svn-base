@@ -1,0 +1,25 @@
+{
+  "name": "Hoi An - K2 Actual Personal",
+  "expression": [
+    "",
+    "VAR Agent =",
+    "    IF (",
+    "        HASONEFILTER ( Cal_AD_Premium[Servicing Agent] ),",
+    "        TOPN ( 1, VALUES ( Cal_AD_Premium[Servicing Agent] ) ),",
+    "        BLANK ()",
+    "    )",
+    "VAR filterdate =",
+    "    MAX ( DimDate[Date] )",
+    "VAR L1 =",
+    "    CALCULATE (",
+    "        SUM ( Cal_AD_K2[Y2 ACTUAL PREM] ),",
+    "        CURRENT_STRUCTURE[Agent_Number] = Agent,",
+    "        --Agency_Structure[GRADE] = \"IC\",",
+    "        --Agency_Structure[Agent Status] = \"Enforce\",",
+    "        --Agency_Structure[Leader Grade] <> \"IC\",",
+    "        CURRENT_STRUCTURE[SFC_MARK_IT] <> \"S\"",
+    "    )",
+    "RETURN",
+    "    L1"
+  ]
+}

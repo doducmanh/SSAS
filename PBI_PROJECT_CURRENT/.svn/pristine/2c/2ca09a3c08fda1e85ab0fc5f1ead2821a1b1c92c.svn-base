@@ -1,0 +1,6 @@
+{
+  "name": "QuarternYear",
+  "dataType": "int64",
+  "sourceColumn": "QuarternYear",
+  "sourceProviderType": "Integer"
+}

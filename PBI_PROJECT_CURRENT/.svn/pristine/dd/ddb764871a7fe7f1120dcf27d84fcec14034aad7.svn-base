@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Leader",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "SWITCH(TRUE(),Agency_Structure[FM]<>BLANK(), Agency_Structure[FM],Agency_Structure[DM]<>BLANK(), Agency_Structure[DM],Agency_Structure[RM]<>BLANK(), Agency_Structure[RM],Agency_Structure[GM]<>BLANK(),Agency_Structure[GM], Agency_Structure[Agent_Number])"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "AD_Office",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "RELATED(Agency_Structure[AD_Office])"
+}

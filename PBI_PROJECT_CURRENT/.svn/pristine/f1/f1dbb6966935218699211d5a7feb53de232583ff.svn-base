@@ -1,0 +1,7 @@
+{
+  "name": "63dd7f4b-4d54-4f25-8841-307d28d8b9a1",
+  "fromTable": "Agency_Structure",
+  "fromColumn": "Agent_Number",
+  "toTable": "Main_AGENT_INFO_DA",
+  "toColumn": "Agent_Number"
+}

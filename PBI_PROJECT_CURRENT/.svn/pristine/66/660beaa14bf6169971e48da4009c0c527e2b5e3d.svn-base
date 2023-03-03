@@ -1,0 +1,5 @@
+{
+  "name": "BirthPlace",
+  "dataType": "string",
+  "sourceColumn": "BirthPlace"
+}

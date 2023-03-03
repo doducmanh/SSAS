@@ -1,0 +1,9 @@
+{
+  "name": "Cal_AD_K2",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": " SELECT [DPO].[Cal_AD_K2].* FROM [DPO].[Cal_AD_K2] ",
+    "dataSource": "SqlServer PowerBI"
+  }
+}

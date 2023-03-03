@@ -1,0 +1,6 @@
+{
+  "name": "CHANNEL",
+  "dataType": "string",
+  "sourceColumn": "CHANNEL",
+  "sourceProviderType": "Char"
+}

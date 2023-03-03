@@ -1,0 +1,15 @@
+{
+  "name": "Sale M50 - CC Personal",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Agent_List[Agent_Number]),TOPN(1,VALUES(Agent_List[Agent_Number])),BLANK())",
+    "",
+    "VAR L1 =  CALCULATE(",
+    "    SUM(Cal_Active_Agent_by_Month[CASE_COUNT]),",
+    "    Agency_Structure[Agent_Number]=Agent",
+    "    )",
+    "",
+    "RETURN L1"
+  ],
+  "formatString": "G"
+}

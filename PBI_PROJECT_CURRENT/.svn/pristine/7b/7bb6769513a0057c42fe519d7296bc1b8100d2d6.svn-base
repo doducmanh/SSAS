@@ -1,0 +1,9 @@
+{
+  "name": "DimOffice",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": " SELECT [DPO].[DW_Office].* FROM [DPO].[DW_Office] ",
+    "dataSource": "SqlServer PowerBI"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Cutoff_Month",
+  "dataType": "int64",
+  "sourceColumn": "Cutoff_Month"
+}

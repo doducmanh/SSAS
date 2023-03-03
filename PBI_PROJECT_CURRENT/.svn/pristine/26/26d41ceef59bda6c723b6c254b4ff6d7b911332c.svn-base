@@ -1,0 +1,12 @@
+{
+  "name": "ID_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "ID_DATE",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

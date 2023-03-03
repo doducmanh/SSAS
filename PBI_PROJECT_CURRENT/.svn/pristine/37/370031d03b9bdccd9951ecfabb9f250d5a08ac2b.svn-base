@@ -1,0 +1,30 @@
+{
+  "name": "FPW - Result",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Servicing Agent]),TOPN(1,VALUES(Cal_AD_Premium[Servicing Agent])),BLANK())",
+    "VAR L0 = IF( [FPW - Service Month] < 12,\"Chưa xét\",0)",
+    "VAR L3 = IF( [FPW - Service Month]>=12",
+    "        && [Cal_FYPinclTopup]>=700000000",
+    "        && [FPW - Consitent Sale] >=2",
+    "        && [FPW - Case Size] >= 15000000",
+    "        && ([FPW - K2] >= 0.7 || ISBLANK('_Measures Folder'[FPW - K2 Expect Personal])),3,0)",
+    "VAR L2 = IF( [FPW - Service Month]>=12",
+    "        && [Cal_FYPinclTopup]>=450000000",
+    "        && [FPW - Consitent Sale] >=1.5",
+    "        && [FPW - Case Size] >= 14500000",
+    "        && ([FPW - K2] >= 0.7 || ISBLANK('_Measures Folder'[FPW - K2 Expect Personal])),2,0)",
+    "VAR L1 = IF( [FPW - Service Month]>=12",
+    "        && [Cal_FYPinclTopup]>=300000000",
+    "        && [FPW - Consitent Sale] >=1",
+    "        && [FPW - Case Size] >= 14000000",
+    "        && ([FPW - K2] >= 0.7 || ISBLANK('_Measures Folder'[FPW - K2 Expect Personal])),1,0)",
+    "RETURN SWITCH(TRUE()",
+    "            ,L0<>0,L0",
+    "            ,L3<>0,L3",
+    "            ,L2<>0,L2",
+    "            ,L1<>0,L1",
+    "            ,0)"
+  ],
+  "formatString": "G"
+}

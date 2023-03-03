@@ -1,0 +1,5 @@
+{
+  "name": "Hoi An - Last update",
+  "expression": "FORMAT(max(Cal_AD_Premium[Collected Date]),\"YYYY/MM/DD\")",
+  "formatString": "G"
+}

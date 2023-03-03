@@ -1,0 +1,6 @@
+{
+  "name": "Cancel",
+  "dataType": "string",
+  "sourceColumn": "Cancel",
+  "sourceProviderType": "varchar"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SRDName",
+  "dataType": "string",
+  "sourceColumn": "SRDName",
+  "sourceProviderType": "WChar"
+}

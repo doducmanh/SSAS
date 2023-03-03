@@ -1,0 +1,7 @@
+{
+  "name": "d434e446-0834-4a1d-8187-32c3b07dce19",
+  "fromTable": "Cal_AD_Agent_Status",
+  "fromColumn": "IDM",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

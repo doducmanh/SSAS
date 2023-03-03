@@ -1,0 +1,6 @@
+{
+  "name": "DayOfWeekName",
+  "dataType": "string",
+  "sourceColumn": "DayOfWeekName",
+  "sourceProviderType": "Char"
+}

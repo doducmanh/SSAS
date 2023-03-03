@@ -1,0 +1,12 @@
+{
+  "name": "PO_Terminated_date",
+  "dataType": "dateTime",
+  "sourceColumn": "PO_Terminated_date",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

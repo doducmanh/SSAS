@@ -1,0 +1,6 @@
+{
+  "name": "PO_ADDRESS",
+  "dataType": "string",
+  "sourceColumn": "PO_ADDRESS",
+  "sourceProviderType": "WChar"
+}

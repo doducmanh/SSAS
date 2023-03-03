@@ -1,0 +1,6 @@
+{
+  "name": "structure",
+  "dataType": "string",
+  "sourceColumn": "structure",
+  "sourceProviderType": "WChar"
+}

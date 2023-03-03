@@ -1,0 +1,13 @@
+{
+  "name": "Issued Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Issued Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

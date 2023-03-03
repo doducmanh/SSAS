@@ -1,0 +1,6 @@
+{
+  "name": "L7G",
+  "dataType": "string",
+  "sourceColumn": "L7G",
+  "sourceProviderType": "Char"
+}

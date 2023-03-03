@@ -1,0 +1,13 @@
+{
+  "name": "PO_DOB",
+  "dataType": "dateTime",
+  "sourceColumn": "PO_DOB",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

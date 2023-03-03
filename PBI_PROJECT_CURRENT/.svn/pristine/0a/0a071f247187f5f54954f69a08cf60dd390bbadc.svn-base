@@ -1,0 +1,8 @@
+{
+  "name": "CaseCount_Cancel",
+  "expression": [
+    "CALCULATE(",
+    "SUM(Cal_AD_Daily_Policy[CountPolicy]),Cal_AD_Daily_Policy[CountPolicy]<0)"
+  ],
+  "formatString": "G"
+}

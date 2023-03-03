@@ -1,0 +1,19 @@
+{
+  "name": "Hoi An - K2 Expect Team",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Agency_Structure[Leader]),TOPN(1,VALUES(Agency_Structure[Leader])),BLANK())",
+    "VAR filterdate = Max(DimDate[Date])",
+    "VAR L1 =  CALCULATE(",
+    "    SUM(Cal_AD_K2[Y2 EXPECTED PREM]),",
+    "    CURRENT_STRUCTURE[Leader]=Agent,",
+    "    --Agency_Structure[GRADE] = \"IC\",",
+    "    --Agency_Structure[Agent Status] = \"Enforce\",",
+    "    --Agency_Structure[Leader Grade] <> \"IC\",",
+    "",
+    "    CURRENT_STRUCTURE[SFC_MARK_IT] <> \"S\"",
+    "    )",
+    "RETURN IF(L1,L1,0)"
+  ],
+  "formatString": "G"
+}

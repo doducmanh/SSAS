@@ -1,0 +1,5 @@
+{
+  "name": "FPL - K2",
+  "expression": "DIVIDE([FPL - K2 Actual], [FPL - K2 Expect],0)",
+  "formatString": "G"
+}

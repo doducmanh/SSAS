@@ -1,0 +1,9 @@
+{
+  "name": "ADList",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": " SELECT [DPO].[DW_AD].* FROM [DPO].[DW_AD] ",
+    "dataSource": "SqlServer PowerBI"
+  }
+}

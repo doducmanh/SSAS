@@ -1,0 +1,17 @@
+{
+  "name": "Cal_AFYP",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": " SELECT [DPO].[DP_TDAILYSALES_DA].* FROM [DPO].[DP_TDAILYSALES_DA] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DP_TDAILYSALES_DA"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    }
+  ]
+}

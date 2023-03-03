@@ -1,0 +1,31 @@
+{
+  "name": "ADTarget",
+  "expression": [
+    "",
+    "VAR CurrentDate =",
+    "    MAX ( DimDate[Date] )",
+    "VAR Target1 =",
+    "    IF (",
+    "        [ADCodeSelected] <> BLANK (),",
+    "        LOOKUPVALUE (",
+    "            Target_AD[Target],",
+    "            Target_AD[AD Code], [ADCodeSelected],",
+    "            Target_AD[MonthTarget], MONTH ( CurrentDate ),",
+    "            Target_AD[YearTarget], YEAR ( CurrentDate )",
+    "        )",
+    "    )",
+    "VAR Target2 =",
+    "    IF (",
+    "        Target1 = BLANK (),",
+    "        LOOKUPVALUE (",
+    "            Target_AD[Target],",
+    "            Target_AD[AD Code], [ADCodeSelected 2],",
+    "            Target_AD[MonthTarget], MONTH ( CurrentDate ),",
+    "            Target_AD[YearTarget], YEAR ( CurrentDate )",
+    "        )",
+    "    )",
+    "RETURN",
+    "    IF ( Target1 = BLANK (), Target2, Target1 )"
+  ],
+  "formatString": "#,0"
+}

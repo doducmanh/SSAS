@@ -1,0 +1,6 @@
+{
+  "name": "L1Name",
+  "dataType": "string",
+  "sourceColumn": "L1Name",
+  "sourceProviderType": "WChar"
+}

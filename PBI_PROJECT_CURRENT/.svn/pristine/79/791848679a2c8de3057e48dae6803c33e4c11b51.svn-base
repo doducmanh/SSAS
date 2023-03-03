@@ -1,0 +1,13 @@
+{
+  "name": "PTD",
+  "dataType": "dateTime",
+  "sourceColumn": "PTD",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

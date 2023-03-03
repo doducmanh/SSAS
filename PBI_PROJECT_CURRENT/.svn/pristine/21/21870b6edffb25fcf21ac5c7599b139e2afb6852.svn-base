@@ -1,0 +1,12 @@
+{
+  "name": "MDRT Q2 - Accum",
+  "expression": [
+    "CALCULATE(",
+    "    [MDRT - Total FYP]",
+    "    ,DimDate[Cut-off Calendar] >= \"2022-01\"",
+    "&&   DimDate[Cut-off Calendar] <= \"2022-06\"",
+    "",
+    ")"
+  ],
+  "formatString": "G"
+}

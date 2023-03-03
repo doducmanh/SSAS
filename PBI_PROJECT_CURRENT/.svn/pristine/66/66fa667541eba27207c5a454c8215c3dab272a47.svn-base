@@ -1,0 +1,6 @@
+{
+  "name": "POLICY_NUMBER",
+  "dataType": "string",
+  "sourceColumn": "POLICY_NUMBER",
+  "sourceProviderType": "Char"
+}

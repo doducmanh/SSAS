@@ -1,0 +1,5 @@
+{
+  "name": "FM Name",
+  "dataType": "string",
+  "sourceColumn": "FM_Agent_Name"
+}

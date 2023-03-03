@@ -1,0 +1,9 @@
+{
+  "name": "Main_POLICY_INFO",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": " SELECT [DPO].[Main_POLICY_INFO].* FROM [DPO].[Main_POLICY_INFO] ",
+    "dataSource": "SqlServer PowerBI"
+  }
+}

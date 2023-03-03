@@ -1,0 +1,33 @@
+{
+  "name": "FPL - Result",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Leader]),TOPN(1,VALUES(Cal_AD_Premium[Leader])),BLANK())",
+    "VAR L0 = IF( [FPL - Service Month] < 12,\"Chưa xét\",0)",
+    "VAR L3 = IF( [FPL - Service Month]>= 12",
+    "        && [FPL - Sale Team]>= 1200000000",
+    "        && [FPL - TS] >= 9",
+    "        && [FPL - AA Avg] >= 3",
+    "        && [FPL - Case Size] >= 15000000",
+    "        && ([FPL - K2] >= 0.7 || ISBLANK('_Measures Folder'[FPL - K2 Expect])),3,0)",
+    "VAR L2 = IF( [FPL - Service Month]>= 12",
+    "        && [FPL - Sale Team]>= 1000000000",
+    "        && [FPL - TS] >= 6",
+    "        && [FPL - AA Avg] >= 2",
+    "        && [FPL - Case Size] >= 15000000",
+    "        && ([FPL - K2] >= 0.7 || ISBLANK('_Measures Folder'[FPL - K2 Expect])),3,0)",
+    "VAR L1 = IF( [FPL - Service Month]>= 12",
+    "        && [FPL - Sale Team]>= 800000000",
+    "        && [FPL - TS] >= 4",
+    "        && [FPL - AA Avg] >= 1",
+    "        && [FPL - Case Size] >= 15000000",
+    "        && ([FPL - K2] >= 0.7 || ISBLANK('_Measures Folder'[FPL - K2 Expect])),3,0)",
+    "RETURN SWITCH(TRUE()",
+    "            ,L0<>0,L0",
+    "            ,L3<>0,L3",
+    "            ,L2<>0,L2",
+    "            ,L1<>0,L1",
+    "            ,0)"
+  ],
+  "formatString": "G"
+}

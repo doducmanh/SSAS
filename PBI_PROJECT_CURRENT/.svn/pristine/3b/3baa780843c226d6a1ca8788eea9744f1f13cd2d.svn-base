@@ -1,0 +1,6 @@
+{
+  "name": "BENEF_IDPLACE",
+  "dataType": "string",
+  "sourceColumn": "BENEF_IDPLACE",
+  "sourceProviderType": "WChar"
+}

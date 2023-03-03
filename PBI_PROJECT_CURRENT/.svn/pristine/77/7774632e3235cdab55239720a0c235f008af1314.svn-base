@@ -1,0 +1,5 @@
+{
+  "name": "MONTH_INACTIVE",
+  "dataType": "int64",
+  "sourceColumn": "MONTH_INACTIVE"
+}

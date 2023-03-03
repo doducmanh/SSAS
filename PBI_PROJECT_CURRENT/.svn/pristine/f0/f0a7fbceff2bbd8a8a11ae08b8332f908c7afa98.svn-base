@@ -1,0 +1,6 @@
+{
+  "name": "Bill_Frequency",
+  "dataType": "string",
+  "sourceColumn": "Bill_Frequency",
+  "sourceProviderType": "Char"
+}

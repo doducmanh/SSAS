@@ -1,0 +1,6 @@
+{
+  "name": "MONTH_ACTIVE",
+  "dataType": "int64",
+  "sourceColumn": "MONTH_ACTIVE",
+  "sourceProviderType": "Integer"
+}

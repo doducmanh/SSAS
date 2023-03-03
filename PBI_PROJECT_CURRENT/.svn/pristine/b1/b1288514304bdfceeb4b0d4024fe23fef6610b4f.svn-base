@@ -1,0 +1,7 @@
+{
+  "name": "eb83731c-01e8-4720-bc1f-80a7adf3a592",
+  "fromTable": "FactCSSubmission",
+  "fromColumn": "TRANS_DATE",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

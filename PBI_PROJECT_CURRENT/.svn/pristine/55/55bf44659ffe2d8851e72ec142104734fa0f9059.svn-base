@@ -1,0 +1,7 @@
+{
+  "name": "Lapsed_date",
+  "dataType": "dateTime",
+  "sourceColumn": "Lapsed_date",
+  "formatString": "General Date",
+  "sourceProviderType": "DBTimeStamp"
+}

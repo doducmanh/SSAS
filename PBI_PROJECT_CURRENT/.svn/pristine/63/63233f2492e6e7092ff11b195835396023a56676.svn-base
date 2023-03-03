@@ -1,0 +1,4 @@
+{
+  "name": "AFYP - QTD",
+  "expression": "TOTALQTD(SUM(Cal_AD_Premium[AFYP]),DimDate[Date],ALL(DimDate[Date]))"
+}

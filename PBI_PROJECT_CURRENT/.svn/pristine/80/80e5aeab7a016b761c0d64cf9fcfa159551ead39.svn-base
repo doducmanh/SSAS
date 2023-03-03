@@ -1,0 +1,21 @@
+{
+  "name": "FPW - FYP_no_Topup",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Agent_List[Agent_Number]),TOPN(1,VALUES(Agent_List[Agent_Number])),BLANK())",
+    "VAR L1 =  CALCULATE(",
+    "    [Cal_FYP_no_Topup],",
+    "    Agency_Structure[Leader]=Agent,",
+    "    Agency_Structure[GRADE] = \"IC\",",
+    "    Agency_Structure[Leader Grade] <> \"IC\"",
+    "    )",
+    "",
+    "VAR SalePersonalAL =  CALCULATE(",
+    "    [Cal_FYP_no_Topup],",
+    "    Agency_Structure[Agent_Number]=Agent,",
+    "    Agency_Structure[GRADE] <> \"IC\"",
+    "    )",
+    "RETURN L1 + SalePersonalAL +0"
+  ],
+  "formatString": "G"
+}

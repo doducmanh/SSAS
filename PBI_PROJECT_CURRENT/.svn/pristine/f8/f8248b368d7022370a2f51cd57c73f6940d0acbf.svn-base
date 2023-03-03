@@ -1,0 +1,6 @@
+{
+  "name": "FLUP_CODES",
+  "dataType": "string",
+  "sourceColumn": "FLUP_CODES",
+  "sourceProviderType": "Char"
+}

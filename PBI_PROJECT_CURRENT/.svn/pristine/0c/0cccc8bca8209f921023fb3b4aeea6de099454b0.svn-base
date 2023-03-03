@@ -1,0 +1,13 @@
+{
+  "name": "BENEF_DOB",
+  "dataType": "dateTime",
+  "sourceColumn": "BENEF_DOB",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

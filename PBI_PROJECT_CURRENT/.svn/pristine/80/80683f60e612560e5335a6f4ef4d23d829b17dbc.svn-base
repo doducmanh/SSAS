@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Main Product",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "lookupvalue(Dim_POLICY_INFO[PRODUCT_CODE],Dim_POLICY_INFO[POLICY_NUMBER],Cal_AD_Premium[Policy No])"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "FYP Count",
+  "dataType": "decimal",
+  "isDataTypeInferred": true,
+  "expression": "if(Cal_AD_Premium[Cross_Sales]<>\"CROSS_SALES\",Cal_AD_Premium[FYPincTopup],0)"
+}

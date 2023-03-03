@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Collection",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "if(Cal_AD_K2[Y2 ACTUAL PREM] = 0, \"Unpaid\", if(Cal_AD_K2[Y2 ACTUAL PREM] = Cal_AD_K2[Y2 EXPECTED PREM], \"Paid\", \"Partially paid\"))"
+}

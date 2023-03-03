@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Telephone",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "lookupvalue(Main_AGENT_INFO_DA[Hand_Phone],Main_AGENT_INFO_DA[Agent_Number],DimAgentSFC[Agent_Number])"
+}

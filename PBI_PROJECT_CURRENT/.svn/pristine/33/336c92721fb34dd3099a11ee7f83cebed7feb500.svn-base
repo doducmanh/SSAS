@@ -1,0 +1,7 @@
+{
+  "name": "440e2051-01fd-4def-92c2-2544f45970b6",
+  "fromTable": "Cal_AD_Agent_Status",
+  "fromColumn": "DateActive",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

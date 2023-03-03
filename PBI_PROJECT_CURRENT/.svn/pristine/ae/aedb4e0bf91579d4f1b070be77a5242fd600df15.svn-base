@@ -1,0 +1,6 @@
+{
+  "name": "ISO Day of Year",
+  "dataType": "int64",
+  "sourceColumn": "ISO Day of Year",
+  "sourceProviderType": "Integer"
+}

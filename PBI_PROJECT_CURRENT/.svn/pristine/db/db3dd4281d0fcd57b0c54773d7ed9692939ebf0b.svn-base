@@ -1,0 +1,6 @@
+{
+  "name": "Sales_Unit_Code",
+  "dataType": "string",
+  "sourceColumn": "Sales_Unit_Code",
+  "sourceProviderType": "Char"
+}

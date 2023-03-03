@@ -1,0 +1,23 @@
+{
+  "name": "FPW - Consitent Sale",
+  "expression": [
+    "",
+    "VAR MinDate =",
+    "    MIN ( DimDate[Date] )",
+    "VAR MaxDate =",
+    "    MAX ( DimDate[Date] )",
+    "VAR MonthCount =",
+    "    DATEDIFF ( MinDate, MaxDate, MONTH ) + 1",
+    "RETURN",
+    "    DIVIDE (",
+    "        [FPW - CC Personal],",
+    "        IF (",
+    "            [Agent_List - Service Month] < 12,",
+    "            [Agent_List - Service Month],",
+    "            MonthCount",
+    "        )",
+    "    )",
+    "--RETURN L1"
+  ],
+  "formatString": "G"
+}

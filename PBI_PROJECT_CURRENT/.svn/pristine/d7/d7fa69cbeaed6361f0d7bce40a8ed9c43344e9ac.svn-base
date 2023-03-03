@@ -1,0 +1,6 @@
+{
+  "name": "After_Discount_Premium",
+  "dataType": "decimal",
+  "sourceColumn": "After_Discount_Premium",
+  "sourceProviderType": "decimal"
+}

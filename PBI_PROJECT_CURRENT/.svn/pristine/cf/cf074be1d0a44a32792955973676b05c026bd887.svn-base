@@ -1,0 +1,12 @@
+{
+  "name": "Transfer_Policy_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Transfer_Policy_Date",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

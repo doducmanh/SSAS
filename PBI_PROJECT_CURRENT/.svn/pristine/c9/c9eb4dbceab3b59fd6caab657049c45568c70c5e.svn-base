@@ -1,0 +1,7 @@
+{
+  "name": "ce4f04c5-3be5-42f5-8120-5b6926428681",
+  "fromTable": "Cal_AFYP",
+  "fromColumn": "Policy_Issue_Date",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

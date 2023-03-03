@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "DateInt",
+  "dataType": "int64",
+  "expression": "FORMAT(Cal_AD_Premium[Collected Date],\"YYYYMMDD\")"
+}

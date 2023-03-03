@@ -1,0 +1,6 @@
+{
+  "name": "Supervisor_Code",
+  "dataType": "string",
+  "sourceColumn": "Supervisor_Code",
+  "sourceProviderType": "Char"
+}

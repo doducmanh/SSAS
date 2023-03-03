@@ -1,0 +1,7 @@
+{
+  "name": "4e41b859-583c-42ad-85b7-77a9680244d4",
+  "fromTable": "DimAgentSFC",
+  "fromColumn": "ExplodedDate",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

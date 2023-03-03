@@ -1,0 +1,6 @@
+{
+  "name": "Grade",
+  "dataType": "string",
+  "sourceColumn": "Grade",
+  "sourceProviderType": "Char"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "PAID_TO_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "PAID_TO_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

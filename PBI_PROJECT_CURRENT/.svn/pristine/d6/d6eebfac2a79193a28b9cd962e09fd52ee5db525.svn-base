@@ -1,0 +1,15 @@
+{
+  "name": "MDRT Q2 - Title",
+  "expression": [
+    "",
+    "SWITCH(",
+    "    TRUE()",
+    "    ,[MDRT Q2 - Accum] >= 1574458000, 3",
+    "    ,[MDRT Q2 - Accum] >= 787229000, 2",
+    "    ,[MDRT Q2 - Accum] >= 262410000, 1",
+    "",
+    ")",
+    ""
+  ],
+  "formatString": "G"
+}

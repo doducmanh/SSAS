@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Office_Name",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "LOOKUPVALUE(DimOffice[Office_Name], DimOffice[Office_Code],Agency_Structure[AD_Office])"
+}

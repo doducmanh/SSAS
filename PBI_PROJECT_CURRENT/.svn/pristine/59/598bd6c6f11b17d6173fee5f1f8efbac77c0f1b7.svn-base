@@ -1,0 +1,15 @@
+{
+  "name": "Hoi An - Total FYP - Team",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM(Cal_AD_Premium[FYP])",
+    "    ,Cal_AD_Premium[Main Product] <> \"UL04\"",
+    "    && Cal_AD_Premium[Main Product] <> \"UL03\"",
+    "    ,Cal_AD_Premium[Cross_Sales]<> \"CROSS_SALES\"",
+    "    ,Cal_AD_Premium[Policy Status] = \"IF\"",
+    "    ,Cal_AD_Premium[Compliance] <> 1",
+    "    ,Cal_AD_Premium[Compliance Leader] <> 1)"
+  ],
+  "formatString": "G"
+}

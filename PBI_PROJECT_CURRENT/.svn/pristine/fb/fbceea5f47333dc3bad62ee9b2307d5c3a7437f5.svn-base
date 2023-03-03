@@ -1,0 +1,7 @@
+{
+  "name": "CountPolicy",
+  "dataType": "int64",
+  "sourceColumn": "CountPolicy",
+  "formatString": "0",
+  "sourceProviderType": "Integer"
+}

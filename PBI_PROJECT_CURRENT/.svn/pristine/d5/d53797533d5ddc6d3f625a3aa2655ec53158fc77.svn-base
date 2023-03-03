@@ -1,0 +1,6 @@
+{
+  "name": "YearTarget",
+  "dataType": "int64",
+  "sourceColumn": "YearTarget",
+  "sourceProviderType": "Integer"
+}

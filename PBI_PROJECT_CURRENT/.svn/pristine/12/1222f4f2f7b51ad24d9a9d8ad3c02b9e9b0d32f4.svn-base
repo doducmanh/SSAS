@@ -1,0 +1,6 @@
+{
+  "name": "L7 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L7 Direct",
+  "sourceProviderType": "Integer"
+}

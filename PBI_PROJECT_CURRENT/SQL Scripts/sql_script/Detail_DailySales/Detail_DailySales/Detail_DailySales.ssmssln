@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Detail_DailySales", "Detail_DailySales\Detail_DailySales.ssmssqlproj", "{0AEAAC89-A218-4D51-9EC6-50730D7A05AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AEAAC89-A218-4D51-9EC6-50730D7A05AE}.Default|Default.ActiveCfg = Default
+		{9DDEA099-025A-4552-9E81-D568FBF70376}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5538859E-7674-49EB-A23B-F34FFB224F5F}
+	EndGlobalSection
+EndGlobal

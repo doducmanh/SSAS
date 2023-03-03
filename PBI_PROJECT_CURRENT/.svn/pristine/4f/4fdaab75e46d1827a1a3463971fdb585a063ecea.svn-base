@@ -1,0 +1,16 @@
+{
+  "name": "Sale M50",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Agent_List[Agent_Number]),TOPN(1,VALUES(Agent_List[Agent_Number])),BLANK())",
+    "VAR L1 =  CALCULATE(",
+    "    [Cal_FYPinclTopup],",
+    "    Agency_Structure[Leader]=Agent,",
+    "    Agency_Structure[GRADE] = \"IC\",",
+    "    Agency_Structure[Leader Grade] <> \"IC\"",
+    "    )",
+    "",
+    "RETURN L1"
+  ],
+  "formatString": "G"
+}

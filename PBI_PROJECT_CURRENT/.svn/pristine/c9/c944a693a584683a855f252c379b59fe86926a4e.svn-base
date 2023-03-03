@@ -1,0 +1,5 @@
+{
+  "name": "CpA - AD",
+  "expression": "DIVIDE([CC - AD],[AA - AD],0)",
+  "formatString": "G"
+}

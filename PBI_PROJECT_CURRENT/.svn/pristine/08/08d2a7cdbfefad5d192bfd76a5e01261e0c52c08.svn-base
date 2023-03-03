@@ -1,0 +1,7 @@
+{
+  "name": "ec01f653-267e-4252-b5e4-73151ade6507",
+  "fromTable": "FactADHistory",
+  "fromColumn": "AD_Code",
+  "toTable": "DimAD",
+  "toColumn": "AD_Code"
+}

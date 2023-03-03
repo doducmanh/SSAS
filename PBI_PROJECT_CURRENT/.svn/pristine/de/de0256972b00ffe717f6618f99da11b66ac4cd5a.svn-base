@@ -1,0 +1,8 @@
+{
+  "name": "filterdate",
+  "expression": [
+    "MAX(DimDate[Date])",
+    ""
+  ],
+  "formatString": "G"
+}

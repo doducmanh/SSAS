@@ -1,0 +1,10 @@
+{
+  "name": "% AA LY",
+  "expression": [
+    "",
+    "VAR CL = [Total AA MTD] - [Total AA LY]",
+    "RETURN",
+    "DIVIDE(CL,[Total AA LY])"
+  ],
+  "formatString": "0.00%;-0.00%;0.00%"
+}

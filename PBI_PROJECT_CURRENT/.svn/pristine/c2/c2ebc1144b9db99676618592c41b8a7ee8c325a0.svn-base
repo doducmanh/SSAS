@@ -1,0 +1,6 @@
+{
+  "name": "Territory_Code",
+  "dataType": "string",
+  "sourceColumn": "Territory_Code",
+  "sourceProviderType": "Char"
+}

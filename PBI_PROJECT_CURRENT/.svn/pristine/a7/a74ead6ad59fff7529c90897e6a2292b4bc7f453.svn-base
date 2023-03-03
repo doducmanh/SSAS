@@ -1,0 +1,30 @@
+{
+  "name": "Hierarchy - AD",
+  "levels": [
+    {
+      "name": "SRDName",
+      "ordinal": 1,
+      "column": "SRDName"
+    },
+    {
+      "name": "TDName",
+      "ordinal": 0,
+      "column": "TDName"
+    },
+    {
+      "name": "RDName",
+      "ordinal": 2,
+      "column": "RDName"
+    },
+    {
+      "name": "SZDName",
+      "ordinal": 3,
+      "column": "SZDName"
+    },
+    {
+      "name": "ADName",
+      "ordinal": 4,
+      "column": "ADName"
+    }
+  ]
+}

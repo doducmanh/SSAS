@@ -1,0 +1,7 @@
+{
+  "name": "AFYP",
+  "dataType": "decimal",
+  "sourceColumn": "AFYP",
+  "formatString": "#,0",
+  "sourceProviderType": "decimal"
+}

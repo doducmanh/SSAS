@@ -1,0 +1,7 @@
+{
+  "name": "3e07c822-ad5f-4ac3-95c9-6678bf62025d",
+  "fromTable": "DimDate",
+  "fromColumn": "Year",
+  "toTable": "Year Filter",
+  "toColumn": "Year"
+}

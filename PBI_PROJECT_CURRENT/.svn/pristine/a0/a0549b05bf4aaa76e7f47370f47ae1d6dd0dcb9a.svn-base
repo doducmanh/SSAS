@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Year",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Year",
+  "sourceProviderType": "Char"
+}

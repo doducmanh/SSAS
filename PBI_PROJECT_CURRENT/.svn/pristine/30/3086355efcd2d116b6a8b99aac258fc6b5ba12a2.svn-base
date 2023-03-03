@@ -1,0 +1,5 @@
+{
+  "name": "Sale M50 - CS Personal",
+  "expression": "DIVIDE([Sale Personal], [Sale M50 - CC Personal],0)",
+  "formatString": "G"
+}

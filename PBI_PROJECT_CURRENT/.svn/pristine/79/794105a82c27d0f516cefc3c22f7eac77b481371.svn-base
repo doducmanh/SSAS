@@ -1,0 +1,6 @@
+{
+  "name": "PO_IDNUMBER",
+  "dataType": "string",
+  "sourceColumn": "PO_IDNUMBER",
+  "sourceProviderType": "Char"
+}

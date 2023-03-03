@@ -1,0 +1,5 @@
+{
+  "name": "DM Name",
+  "dataType": "string",
+  "sourceColumn": "DM_Agent_Name"
+}

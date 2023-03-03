@@ -1,0 +1,6 @@
+{
+  "name": "PRODUCT_CODE",
+  "dataType": "string",
+  "sourceColumn": "PRODUCT_CODE",
+  "sourceProviderType": "Char"
+}

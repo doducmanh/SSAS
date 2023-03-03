@@ -1,0 +1,7 @@
+{
+  "name": "bc392903-e125-457b-8f2b-899a7ce38366",
+  "fromTable": "Cal_AD_Daily_Policy",
+  "fromColumn": "DateActive",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

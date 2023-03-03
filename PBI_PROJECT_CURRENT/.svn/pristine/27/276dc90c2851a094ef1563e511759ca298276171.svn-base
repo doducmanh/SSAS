@@ -1,0 +1,4 @@
+{
+  "name": "App",
+  "expression": " DISTINCTCOUNT(FactCSSubmission[APPLICATION_NO])"
+}

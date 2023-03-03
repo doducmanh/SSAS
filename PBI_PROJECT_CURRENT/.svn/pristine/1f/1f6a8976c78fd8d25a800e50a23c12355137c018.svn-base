@@ -1,0 +1,7 @@
+{
+  "name": "fdc49c29-538e-4280-9df3-540655cc626e",
+  "fromTable": "FactADHistory",
+  "fromColumn": "Territory_Code",
+  "toTable": "DimTerritory",
+  "toColumn": "Code"
+}

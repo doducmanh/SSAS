@@ -1,0 +1,5 @@
+{
+  "name": "Total CS MTD",
+  "expression": "CALCULATE([CaseSize],DATESMTD(DimDate[Date]))",
+  "formatString": "#,0"
+}

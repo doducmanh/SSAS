@@ -1,0 +1,8 @@
+{
+  "name": "73f6bd87-3fa2-4ffc-b997-2b5daec4a93a",
+  "fromTable": "Cal_AD_Premium",
+  "fromColumn": "ID_Current",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID",
+  "isActive": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "calculated",
+  "name": "Compliance Leader",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "IF (",
+    "    LOOKUPVALUE (",
+    "        'Agents Discipline List'[Cancel],",
+    "        'Agents Discipline List'[Cancel], Agency_Structure[Leader] & Agency_Structure[ExplodedDate]",
+    "    ),",
+    "    1,",
+    "    0",
+    ")"
+  ]
+}

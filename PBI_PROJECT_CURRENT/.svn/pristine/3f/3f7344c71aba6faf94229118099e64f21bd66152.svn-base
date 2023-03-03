@@ -1,0 +1,25 @@
+{
+  "name": "Hierarchy Appointed",
+  "levels": [
+    {
+      "name": "Year",
+      "ordinal": 0,
+      "column": "Year"
+    },
+    {
+      "name": "Month",
+      "ordinal": 1,
+      "column": "Month"
+    },
+    {
+      "name": "Day",
+      "ordinal": 2,
+      "column": "Day"
+    },
+    {
+      "name": "Date_Appointed",
+      "ordinal": 3,
+      "column": "Date_Appointed"
+    }
+  ]
+}

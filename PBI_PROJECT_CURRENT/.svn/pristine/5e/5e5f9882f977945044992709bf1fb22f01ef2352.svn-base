@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Is_Terminated",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "if(Cal_AD_Agent_Status[DateType] = \"Terminated_date\",1,0)"
+}

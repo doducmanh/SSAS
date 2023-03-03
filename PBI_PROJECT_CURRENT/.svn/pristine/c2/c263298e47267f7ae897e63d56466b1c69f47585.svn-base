@@ -1,0 +1,6 @@
+{
+  "name": "LA_IDNUMBER",
+  "dataType": "string",
+  "sourceColumn": "LA_IDNUMBER",
+  "sourceProviderType": "Char"
+}

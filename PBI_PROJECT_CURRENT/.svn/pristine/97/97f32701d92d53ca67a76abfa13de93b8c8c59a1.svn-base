@@ -1,0 +1,5 @@
+{
+  "name": "Hoi An - K2 Team",
+  "expression": "DIVIDE([Hoi An - K2 Actual Team], [Hoi An - K2 Expect Team],0.7)",
+  "formatString": "G"
+}

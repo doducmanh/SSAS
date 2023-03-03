@@ -1,0 +1,22 @@
+{
+  "name": "DimADSecurity",
+  "isHidden": true,
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "SELECT [DPO].[AD_Security].* FROM [DPO].[AD_Security]"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "AD_Security"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    },
+    {
+      "name": "QueryEditorSerialization",
+      "value": "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [DPO].[AD_Security].* FROM [DPO].[AD_Security]</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+    }
+  ]
+}

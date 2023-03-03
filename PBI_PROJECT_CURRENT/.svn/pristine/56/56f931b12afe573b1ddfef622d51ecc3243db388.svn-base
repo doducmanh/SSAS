@@ -1,0 +1,6 @@
+{
+  "name": "WeeknYear",
+  "dataType": "int64",
+  "sourceColumn": "WeeknYear",
+  "sourceProviderType": "Integer"
+}

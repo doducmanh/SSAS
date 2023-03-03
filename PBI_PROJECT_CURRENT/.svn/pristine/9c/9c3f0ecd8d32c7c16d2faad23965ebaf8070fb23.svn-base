@@ -1,0 +1,6 @@
+{
+  "name": "DateInt",
+  "dataType": "int64",
+  "sourceColumn": "DateInt",
+  "sourceProviderType": "Integer"
+}

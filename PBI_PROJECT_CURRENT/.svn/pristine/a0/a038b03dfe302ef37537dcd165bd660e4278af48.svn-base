@@ -1,0 +1,5 @@
+{
+  "name": "TDName",
+  "dataType": "string",
+  "sourceColumn": "TDName"
+}

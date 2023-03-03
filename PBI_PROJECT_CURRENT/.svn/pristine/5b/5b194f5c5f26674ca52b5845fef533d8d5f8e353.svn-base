@@ -1,0 +1,6 @@
+{
+  "name": "IsWorkingDay",
+  "dataType": "string",
+  "sourceColumn": "IsWorkingDay",
+  "sourceProviderType": "Char"
+}

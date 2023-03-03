@@ -1,0 +1,6 @@
+{
+  "name": "Alternate4",
+  "dataType": "string",
+  "sourceColumn": "Alternate4",
+  "sourceProviderType": "WChar"
+}

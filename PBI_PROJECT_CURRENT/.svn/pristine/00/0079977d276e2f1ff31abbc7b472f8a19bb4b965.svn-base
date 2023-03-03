@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Target",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": "[TargetFYP]*1000000",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" ThousandSeparator=\"True\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

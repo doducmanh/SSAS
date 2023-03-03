@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Leader_Self",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "if(Agency_Structure[Agent_Number] = Agency_Structure[Leader],1,0)"
+}

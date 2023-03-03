@@ -1,0 +1,6 @@
+{
+  "name": "PAYMENT_METHOD",
+  "dataType": "string",
+  "sourceColumn": "PAYMENT_METHOD",
+  "sourceProviderType": "Char"
+}

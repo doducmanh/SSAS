@@ -1,0 +1,7 @@
+{
+  "name": "b9317f1d-96aa-48bc-9744-dd6c326ccabb",
+  "fromTable": "DimADHeadcount",
+  "fromColumn": "ExplodedDate",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

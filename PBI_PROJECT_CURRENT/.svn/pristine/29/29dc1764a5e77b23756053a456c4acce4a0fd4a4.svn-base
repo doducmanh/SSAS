@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Leader_TAPSU_SALES",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "IF(Cal_AD_Premium[Collected Date] < Cal_AD_Premium[Leader_Date_Appointed] - DAY(Cal_AD_Premium[Leader_Date_Appointed]) + 1, 1, 0)"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fb5e754c-affb-4199-b792-e76adc0e22a9",
+  "fromTable": "Agency_Structure",
+  "fromColumn": "ID_AD",
+  "toTable": "FactADHistory",
+  "toColumn": "ID"
+}

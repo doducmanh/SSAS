@@ -1,0 +1,6 @@
+{
+  "name": "L4Name",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "L4Name"
+}

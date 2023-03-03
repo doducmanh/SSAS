@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "Territory Name",
+  "dataType": "int64",
+  "isDataTypeInferred": true
+}

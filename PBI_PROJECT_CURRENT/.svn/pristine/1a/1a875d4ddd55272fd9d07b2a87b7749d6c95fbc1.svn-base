@@ -1,0 +1,5 @@
+{
+  "name": "Agent Name",
+  "dataType": "string",
+  "sourceColumn": "Agent_Name"
+}

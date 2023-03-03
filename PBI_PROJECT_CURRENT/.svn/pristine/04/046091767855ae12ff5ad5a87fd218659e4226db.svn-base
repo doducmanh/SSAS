@@ -1,0 +1,7 @@
+{
+  "name": "b4a8c510-a152-45cd-b2a4-96bdb16bee07",
+  "fromTable": "DimADHeadcount",
+  "fromColumn": "ID",
+  "toTable": "FactADHistory",
+  "toColumn": "ID"
+}

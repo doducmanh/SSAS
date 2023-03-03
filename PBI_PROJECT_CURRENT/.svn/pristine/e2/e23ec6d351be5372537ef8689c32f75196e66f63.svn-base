@@ -1,0 +1,6 @@
+{
+  "name": "Structure",
+  "dataType": "string",
+  "sourceColumn": "Structure",
+  "sourceProviderType": "Char"
+}

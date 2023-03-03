@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "KeyADTime",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_K2[AGENT NO] & FORMAT ( Today(), \"YYYYMM\" )"
+}

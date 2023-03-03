@@ -1,0 +1,52 @@
+{
+  "name": "DT",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0921",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6583"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0355",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2463"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0540",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2549"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0489",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4965"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0680",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6283"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0128",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2701"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0405",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4807"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0190",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3100"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0216",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3221"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0416",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4822"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DimADSecurity",
+      "filterExpression": "FALSE()"
+    }
+  ]
+}

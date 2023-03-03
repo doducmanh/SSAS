@@ -1,0 +1,6 @@
+{
+  "name": "INSTALMENT_PREMIUM",
+  "dataType": "decimal",
+  "sourceColumn": "INSTALMENT_PREMIUM",
+  "sourceProviderType": "decimal"
+}

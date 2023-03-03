@@ -1,0 +1,13 @@
+{
+  "name": "TotalManpower",
+  "expression": [
+    "",
+    "Var filterdate = MAX(DimDate[Date])",
+    "Return",
+    "CALCULATE(COUNTROWS(DimAgent),",
+    "LEFT(DimAgent[Name],5) <> \"DUMMY\",",
+    "DimAgent[Date_Appointed] <= filterdate,",
+    "ISBLANK(DimAgent[Terminated_date]) = TRUE || DimAgent[Terminated_date] > filterdate) "
+  ],
+  "formatString": "G"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Issued Date",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "expression": "lookupvalue(Dim_POLICY_INFO[ISSUED_DATE],Dim_POLICY_INFO[POLICY_NUMBER],Cal_AD_K2[POLICY NO])",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

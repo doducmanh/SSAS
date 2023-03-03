@@ -1,0 +1,13 @@
+{
+  "name": "TRANSACTION_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "TRANSACTION_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

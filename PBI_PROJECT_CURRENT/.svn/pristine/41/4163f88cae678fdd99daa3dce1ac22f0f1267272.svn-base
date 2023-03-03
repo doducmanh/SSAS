@@ -1,0 +1,7 @@
+{
+  "name": "908c9831-56ff-4a39-9115-50113bc2398d",
+  "fromTable": "Cal_AD_K2",
+  "fromColumn": "Issued Date",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

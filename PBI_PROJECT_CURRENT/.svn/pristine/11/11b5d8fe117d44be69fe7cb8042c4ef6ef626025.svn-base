@@ -1,0 +1,7 @@
+{
+  "name": "Y2 Actual Current",
+  "expression": [
+    " CALCULATE(SUM(Cal_AD_K2[Y2 ACTUAL PREM]),USERELATIONSHIP(Cal_AD_K2[KeyADTime],Agency_Structure[ID])",
+    ")"
+  ]
+}

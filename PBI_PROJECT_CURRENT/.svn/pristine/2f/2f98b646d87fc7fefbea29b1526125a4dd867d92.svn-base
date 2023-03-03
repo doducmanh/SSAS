@@ -1,0 +1,6 @@
+{
+  "name": "Territory",
+  "dataType": "string",
+  "sourceColumn": "Territory",
+  "sourceProviderType": "WChar"
+}

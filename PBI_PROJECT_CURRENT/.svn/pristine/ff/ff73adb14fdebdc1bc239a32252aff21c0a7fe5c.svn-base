@@ -1,0 +1,7 @@
+{
+  "name": "RYP",
+  "dataType": "decimal",
+  "sourceColumn": "RYP",
+  "formatString": "#,0",
+  "sourceProviderType": "decimal"
+}

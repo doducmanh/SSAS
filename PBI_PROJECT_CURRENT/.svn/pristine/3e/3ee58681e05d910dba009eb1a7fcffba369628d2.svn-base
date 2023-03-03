@@ -1,0 +1,5 @@
+{
+  "name": "MDRT RESULT",
+  "expression": "IF([MDRT - TOT - Title]<>0,\"TOT\",IF([MDRT - COT - Title]<>0,\"COT\",IF([MDRT - MDRT - Title]<>0,\"MDRT\")))",
+  "formatString": "G"
+}

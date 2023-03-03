@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ID_Current",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_Premium[Servicing Agent] & FORMAT(today(),\"yyyyMM\")"
+}

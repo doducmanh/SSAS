@@ -1,0 +1,104 @@
+{
+  "name": "TDRDDirect",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0188",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3098"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0215",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3220"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0225",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3244"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0332",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3563"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vpns0117",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2822"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0395",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4791"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0402",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4804"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0567",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2592"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0566",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2591"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0693",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6312"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0743",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5885"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0319",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3495"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0607",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6123"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0256",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3360"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0476",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4949"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0589",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5133"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0598",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6109"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0784",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5961"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0223",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3236"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0233",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1587"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0849",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6072"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagyn300",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6066"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DimADSecurity",
+      "filterExpression": "FALSE()"
+    },
+    {
+      "name": "FactADHistory",
+      "filterExpression": "[ADLookup] = FactADHistory[L1] || [ADLookup] = FactADHistory[L2] || [ADLookup] = FactADHistory[L3] || [ADLookup] = FactADHistory[L4] ||[ADLookup] = FactADHistory[L5]"
+    }
+  ]
+}

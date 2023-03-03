@@ -1,0 +1,6 @@
+{
+  "name": "AGENT_CHANNEL",
+  "dataType": "string",
+  "sourceColumn": "AGENT_CHANNEL",
+  "sourceProviderType": "Char"
+}

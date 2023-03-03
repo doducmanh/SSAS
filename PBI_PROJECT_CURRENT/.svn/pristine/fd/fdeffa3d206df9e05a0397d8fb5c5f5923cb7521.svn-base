@@ -1,0 +1,4 @@
+{
+  "name": "CC",
+  "expression": " sum(Cal_Active_Agent_by_Month[CASE_COUNT])"
+}

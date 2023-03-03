@@ -1,0 +1,5 @@
+{
+  "name": "Hoi An - Ticket Team",
+  "expression": "SUMX ( VALUES ( Agency_Structure[Leader] ), [Hoi An - Result - Team] )",
+  "formatString": "G"
+}

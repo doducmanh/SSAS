@@ -1,0 +1,6 @@
+{
+  "name": "MonthEnding",
+  "dataType": "string",
+  "sourceColumn": "MonthEnding",
+  "sourceProviderType": "Char"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Leader_Self",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "if(DimAgentSFC[Agent_Number] = DimAgentSFC[Leader],1,0)"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Terminated_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Terminated_Date",
+  "formatString": "General Date",
+  "sourceProviderType": "DBDate"
+}

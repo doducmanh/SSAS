@@ -1,0 +1,5 @@
+{
+  "name": "DemotePromote_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "DemotePromote_Date"
+}

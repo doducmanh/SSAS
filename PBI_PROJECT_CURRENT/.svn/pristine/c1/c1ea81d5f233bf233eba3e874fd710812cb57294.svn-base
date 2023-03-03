@@ -1,0 +1,6 @@
+{
+  "name": "Component_Code",
+  "dataType": "string",
+  "sourceColumn": "Component_Code",
+  "sourceProviderType": "Char"
+}

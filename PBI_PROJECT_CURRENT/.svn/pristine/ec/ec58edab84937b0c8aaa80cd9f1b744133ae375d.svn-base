@@ -1,0 +1,10 @@
+{
+  "name": "CalculatedTable 1",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "ROW(\"A\", 0)",
+      ""
+    ]
+  }
+}

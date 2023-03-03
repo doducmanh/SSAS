@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Structure",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "LOOKUPVALUE(FactADHistory[structure], FactADHistory[AD_Code],DimAD[AD_Code], FactADHistory[ExplodedDate], DATE(year(TODAY()),month(today()),1))"
+}

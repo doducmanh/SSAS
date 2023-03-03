@@ -1,0 +1,6 @@
+{
+  "name": "Quarter & Year",
+  "dataType": "string",
+  "sourceColumn": "Quarter & Year",
+  "sourceProviderType": "Char"
+}

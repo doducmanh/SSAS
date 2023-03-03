@@ -1,0 +1,6 @@
+{
+  "name": "L3 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L3 Direct",
+  "sourceProviderType": "Integer"
+}

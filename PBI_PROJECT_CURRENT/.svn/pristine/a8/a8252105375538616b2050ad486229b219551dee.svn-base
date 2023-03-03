@@ -1,0 +1,21 @@
+{
+  "name": "Hoi An - Result - Team",
+  "expression": [
+    "IF (",
+    "    [Hoi An - Total FYP - Team] / 400000000 >= 2",
+    "        && [Hoi An - Active Agent - Team] >= 16",
+    "        && ( [Hoi An - K2 Team] >= 0.7",
+    "        || [Hoi An - K2 Expect Team] = 0 ),",
+    "    2,",
+    "    IF (",
+    "        [Hoi An - Total FYP - Team] >= 400000000",
+    "            && [Hoi An - Active Agent - Team] >= 8",
+    "            && ( [Hoi An - K2 Team] >= 0.7",
+    "            || [Hoi An - K2 Expect Team] = 0 ),",
+    "        1,",
+    "        0",
+    "    )",
+    ")"
+  ],
+  "formatString": "G"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "FYPincTopup",
+  "dataType": "decimal",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_Premium[FYP]+ Cal_AD_Premium[Topup]*0.1"
+}

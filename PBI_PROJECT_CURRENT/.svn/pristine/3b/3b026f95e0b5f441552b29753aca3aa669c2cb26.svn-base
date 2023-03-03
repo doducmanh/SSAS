@@ -1,0 +1,6 @@
+{
+  "name": "L9 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L9 Direct",
+  "sourceProviderType": "Integer"
+}

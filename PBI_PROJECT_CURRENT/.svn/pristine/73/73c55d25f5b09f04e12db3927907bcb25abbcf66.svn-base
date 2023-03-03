@@ -1,0 +1,6 @@
+{
+  "name": "SFC_MARK_IT",
+  "dataType": "string",
+  "sourceColumn": "SFC_MARK_IT",
+  "sourceProviderType": "Char"
+}

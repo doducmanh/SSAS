@@ -1,0 +1,13 @@
+{
+  "name": "AD_Terminated_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "AD_Terminated_Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

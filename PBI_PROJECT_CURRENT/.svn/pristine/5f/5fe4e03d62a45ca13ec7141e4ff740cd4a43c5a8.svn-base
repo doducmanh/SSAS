@@ -1,0 +1,13 @@
+{
+  "name": "FPW - Agent Appointed",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Agent_List[Agent_Number]),TOPN(1,VALUES(Agent_List[Agent_Number])),BLANK())",
+    "VAR AgentAppointedDate = LOOKUPVALUE(Agent_List[Date_Appointed],Agent_List[Agent_Number],Agent)",
+    "VAR AgentAppointedDateFullMonth =  FORMAT((IF(AgentAppointedDate > VALUE(\"2021/04/10\") &&AgentAppointedDate < VALUE(\"2021/05/01\"), VALUE(\"2021/04/01\"),VALUE(\"2021/05/01\"))),\"mm/dd/yyyy\")",
+    "--VAR AgentAppointedDateFullMonth_2 = IF(AgentAppointedDateFullMonth >= VALUE--(\"2022/\")",
+    "",
+    "RETURN AgentAppointedDateFullMonth"
+  ],
+  "formatString": "G"
+}

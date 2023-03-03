@@ -1,0 +1,14 @@
+{
+  "name": "PO - Result - New Entry",
+  "expression": [
+    "",
+    "SWITCH (",
+    "    TRUE (),",
+    "    [Cal_FYPinclTopup] >= 150000000, 3,",
+    "    [Cal_FYPinclTopup] >= 90000000, 2,",
+    "    [Cal_FYPinclTopup] >= 45000000, 1,",
+    "    0",
+    ")"
+  ],
+  "formatString": "G"
+}

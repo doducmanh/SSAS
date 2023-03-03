@@ -1,0 +1,20 @@
+{
+  "name": "FPL - TS",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Leader]),TOPN(1,VALUES(Cal_AD_Premium[Leader])),BLANK())",
+    "VAR filterdate = Max(DimDate[Date])",
+    "VAR L1 =  CALCULATE(",
+    "    COUNTROWS(DISTINCT(DimAgentSFC[Agent_Number])),",
+    "    DimAgentSFC[Leader]=Agent,",
+    "    DimAgentSFC[Grade] = \"IC\",",
+    "    ISBLANK(DimAgentSFC[Terminated_date]),",
+    "    DimAgentSFC[Leader_Grade] <> \"FC\",",
+    "    DimAgentSFC[ExplodedDate] = DATE(2022,04,01),",
+    "    DimAgentSFC[SFC] <> \"S\"",
+    "    )",
+    "",
+    "RETURN L1"
+  ],
+  "formatString": "G"
+}

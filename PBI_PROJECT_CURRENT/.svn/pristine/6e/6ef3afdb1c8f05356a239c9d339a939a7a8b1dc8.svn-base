@@ -1,0 +1,7 @@
+{
+  "name": "LA_DOB",
+  "dataType": "dateTime",
+  "sourceColumn": "LA_DOB",
+  "formatString": "General Date",
+  "sourceProviderType": "DBDate"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Manpower AD",
+  "expression": [
+    "VAR datemax =",
+    "    MAX ( DimDate[Date] )",
+    "VAR filterdate =",
+    "    EOMONTH (",
+    "        IF ( MAX ( DimDate[Date] ) > TODAY (), TODAY (), MAX ( DimDate[Date] ) ),",
+    "        0",
+    "    )",
+    "VAR Manpower =",
+    "    CALCULATE (",
+    "        COUNTROWS ( DimADHeadcount ) + 0,",
+    "        DimADHeadcount[ENFORCE_MONTH] = 1,",
+    "        EOMONTH ( DimADHeadcount[ExplodedDate], 0 ) = filterdate",
+    "    )",
+    "RETURN",
+    "    Manpower"
+  ]
+}

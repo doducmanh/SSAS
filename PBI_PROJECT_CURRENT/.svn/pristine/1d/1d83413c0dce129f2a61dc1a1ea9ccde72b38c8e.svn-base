@@ -1,0 +1,10 @@
+{
+  "type": "calculated",
+  "name": "AD_Office_Adjusted",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "SWITCH(FactCSSubmission[AD_Office], \"ADL\", \"DNA\", \"BH2\", \"DN2\",\"ADN\", \"DNA\",\"ABL\", \"BLI\",\"ABT\", \"BTR\",\"ACM\", \"CMA\",\"ACT\", \"CTO\",\"ALX\", \"LXN\",\"AMT\", \"MTO\",\"ARG\", \"RGI\",\"AST\", \"STR\",\"ATV\", \"TRV\",\"ACD\", \"CHD\",\"PHL\", FactCSSubmission[CHANNEL],BLANK(), FactCSSubmission[CHANNEL],FactCSSubmission[AD_Office])",
+    ""
+  ]
+}

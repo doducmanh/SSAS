@@ -1,0 +1,30 @@
+{
+  "name": "Hierarchy ADName",
+  "levels": [
+    {
+      "name": "L1Name",
+      "ordinal": 0,
+      "column": "L1Name"
+    },
+    {
+      "name": "L2Name",
+      "ordinal": 1,
+      "column": "L2Name"
+    },
+    {
+      "name": "L3Name",
+      "ordinal": 2,
+      "column": "L3Name"
+    },
+    {
+      "name": "L4Name",
+      "ordinal": 3,
+      "column": "L4Name"
+    },
+    {
+      "name": "L5Name",
+      "ordinal": 4,
+      "column": "L5Name"
+    }
+  ]
+}

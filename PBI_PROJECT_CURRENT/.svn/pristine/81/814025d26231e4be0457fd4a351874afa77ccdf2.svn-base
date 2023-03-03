@@ -1,0 +1,8 @@
+{
+  "name": "Slicer - Date",
+  "expression": [
+    "",
+    "IF(EOMONTH(IF(MAX(DimDate[Date])>TODAY(),TODAY(),MAX(DimDate[Date])),0)= EOMONTH(max(DimAgentSFC[ExplodedDate]),0),1,0)"
+  ],
+  "formatString": "G"
+}

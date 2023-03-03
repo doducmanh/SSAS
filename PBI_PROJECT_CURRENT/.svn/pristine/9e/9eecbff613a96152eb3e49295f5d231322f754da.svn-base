@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "IDM",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_Premium[AD_Code] & Cal_AD_Premium[Cut-off Calendar]"
+}

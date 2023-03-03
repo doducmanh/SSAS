@@ -1,0 +1,21 @@
+{
+  "name": "Agency_Structure2",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": [
+      "SELECT [DPO].[Main_Agency_Structure].* FROM [DPO].[Main_Agency_Structure]",
+      "WHERE [DPO].[Main_Agency_Structure].[ExplodedDate] >= 202001"
+    ],
+    "dataSource": "SqlServer PowerBI"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [DPO].[Main_Agency_Structure].* FROM [DPO].[Main_Agency_Structure]",
+        "WHERE [DPO].[Main_Agency_Structure].[ExplodedDate] >= 202001</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+      ]
+    }
+  ]
+}

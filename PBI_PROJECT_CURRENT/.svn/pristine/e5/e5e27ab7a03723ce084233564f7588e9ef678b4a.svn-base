@@ -1,0 +1,6 @@
+{
+  "name": "GM_Agent_Name",
+  "dataType": "string",
+  "sourceColumn": "GM_Agent_Name",
+  "sourceProviderType": "WChar"
+}

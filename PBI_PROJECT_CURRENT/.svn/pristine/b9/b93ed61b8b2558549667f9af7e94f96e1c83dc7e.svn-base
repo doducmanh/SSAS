@@ -1,0 +1,6 @@
+{
+  "name": "AGENT NO",
+  "dataType": "string",
+  "sourceColumn": "AGENT NO",
+  "sourceProviderType": "Char"
+}

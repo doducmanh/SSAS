@@ -1,0 +1,11 @@
+{
+  "name": "MDRT - Total FYP Not UL81",
+  "expression": [
+    "CALCULATE (",
+    "    SUM ( Cal_AD_Premium[FYPincTopup] ),",
+    "    Cal_AD_Premium[Cross_Sales] <> \"CROSS_SALES\",",
+    "    Cal_AD_Premium[Compliance] = 0,",
+    "    Cal_AD_Premium[Main Product] <> \"UL81\"",
+    ")"
+  ]
+}

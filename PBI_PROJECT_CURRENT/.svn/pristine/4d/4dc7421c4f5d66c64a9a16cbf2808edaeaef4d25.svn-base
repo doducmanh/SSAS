@@ -1,0 +1,6 @@
+{
+  "name": "License_No",
+  "dataType": "string",
+  "sourceColumn": "License_No",
+  "sourceProviderType": "Char"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Topup",
+  "dataType": "decimal",
+  "sourceColumn": "Topup",
+  "formatString": "#,0",
+  "sourceProviderType": "decimal"
+}

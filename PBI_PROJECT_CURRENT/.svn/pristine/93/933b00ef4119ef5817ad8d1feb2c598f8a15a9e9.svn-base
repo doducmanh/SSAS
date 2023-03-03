@@ -1,0 +1,6 @@
+{
+  "name": "Week & Year",
+  "dataType": "string",
+  "sourceColumn": "Week & Year",
+  "sourceProviderType": "Char"
+}

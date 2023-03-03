@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Is_Terminated",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "INT(eomonth(DimAgentSFC[ExplodedDate],0) = eomonth(DimAgentSFC[Terminated_date],0))"
+}

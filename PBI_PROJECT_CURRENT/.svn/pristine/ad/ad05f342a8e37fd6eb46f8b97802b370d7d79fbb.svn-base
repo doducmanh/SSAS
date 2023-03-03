@@ -1,0 +1,4 @@
+{
+  "name": "CaseSize",
+  "expression": " divide(SUM(Cal_AD_Premium[FYPincTopup]) , SUM(Cal_Active_Agent_by_Month[CASE_COUNT]),0)"
+}

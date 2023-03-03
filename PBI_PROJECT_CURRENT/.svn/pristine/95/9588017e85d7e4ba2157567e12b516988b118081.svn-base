@@ -1,0 +1,7 @@
+{
+  "name": "00b6d4e0-ebca-446b-9e64-223a42a436c6",
+  "fromTable": "Cal_AD_K2",
+  "fromColumn": "AGENT NO",
+  "toTable": "CURRENT_STRUCTURE",
+  "toColumn": "ID"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ENFORCE_MONTH",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": " if((EOMONTH(DimADHeadcount[ExplodedDate],0) >= DimADHeadcount[Appointed_Date] ) && (EOMONTH(DimADHeadcount[ExplodedDate],0) <= (IF(ISBLANK(DimADHeadcount[Terminated_Date]),EOMONTH(TODAY(),0),DimADHeadcount[Terminated_Date]))),1,0)"
+}

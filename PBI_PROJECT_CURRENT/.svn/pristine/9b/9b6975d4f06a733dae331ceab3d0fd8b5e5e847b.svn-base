@@ -1,0 +1,13 @@
+{
+  "name": "TRANS_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "TRANS_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

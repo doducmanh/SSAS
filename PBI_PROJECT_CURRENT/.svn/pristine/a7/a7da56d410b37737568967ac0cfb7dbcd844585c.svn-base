@@ -1,0 +1,8 @@
+{
+  "name": "Selected Agent",
+  "expression": [
+    "",
+    "IF(HASONEFILTER(Agent_List[Agent_Number]),TOPN(1,VALUES(Agent_List[Agent_Number])),BLANK())"
+  ],
+  "formatString": "G"
+}

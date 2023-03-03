@@ -1,0 +1,6 @@
+{
+  "name": "Club_Class",
+  "dataType": "string",
+  "sourceColumn": "Club_Class",
+  "sourceProviderType": "Char"
+}

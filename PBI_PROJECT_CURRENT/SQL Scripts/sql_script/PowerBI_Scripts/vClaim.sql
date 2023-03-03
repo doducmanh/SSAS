@@ -1,0 +1,231 @@
+USE [PowerBI]
+GO
+
+/****** Object:  View [DPO].[vClaim]    Script Date: 3/21/2022 4:12:31 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+--ALTER VIEW [DPO].[vClaim] AS 
+
+WITH A AS (
+SELECT  *
+	  ,[AGENT_CODE] + CONVERT(CHAR(6), [CLM_SUBMIT_DATE], 112) AS ID_AGENT
+FROM [PowerBI].[DPO].[CLAIM]
+  --GROUP BY [POLICY_NUMBER]
+ -- WHERE [PAYMENT_NOTICED] IS NULL
+)
+
+,B AS (
+SELECT  B.Agent_Number
+		,MIN(B.ID) AS ID
+FROM [PowerBI].[DPO].[Main_AGENCY_STRUCTURE] AS B
+GROUP BY B.Agent_Number
+  --GROUP BY [POLICY_NUMBER]
+ -- WHERE [PAYMENT_NOTICED] IS NULL
+ )
+
+,C AS (
+SELECT 
+	A.*
+	, IIF(HOT_FIX.ID > A.ID_AGENT, HOT_FIX.ID, A.ID_AGENT) AS ID_AGENT_FIX
+	--,E.AD_Code
+	--, D.[Current Agent]
+FROM A
+LEFT JOIN B AS HOT_FIX
+ON A.AGENT_CODE = HOT_FIX.Agent_Number
+)
+
+,D AS (
+SELECT
+	C.*
+	,E.AD_Code
+	,E.ID_AD
+	--,AD.ADName AS ADNAME2
+	,E.AD_Code_Current
+	,E.ID_AD_Current
+	--,AD2.ADName AS ADNAME3
+FROM C
+LEFT JOIN [PowerBI].[DPO].[Main_AGENCY_STRUCTURE] AS E
+ON C.ID_AGENT_FIX = E.ID
+
+--LEFT JOIN [PowerBI].[DPO].Main_AD_STRUCTURE_FULL AS AD
+--ON E.ID_AD = AD.ID
+
+--LEFT JOIN [PowerBI].[DPO].Main_AD_STRUCTURE_FULL AS AD2
+--ON E.ID_AD_Current = AD2.ID
+
+)
+
+, E AS (
+SELECT C.* 
+		--, P.AD_CODE
+		--, [TERRITORY] = CASE WHEN (SELECT TOP 1 Territory FROM Main_AD_STRUCTURE WHERE /*status IN ('Appointed','Promoted') AND*/  AD_Code = P.AD_CODE AND Office_Code = C.AD_OFFICES ORDER BY ID DESC) IS NULL 
+		--											THEN (SELECT TOP 1 Territory FROM Main_AD_STRUCTURE WHERE Grade IN ('ZD','SZD','TD') AND AD_Code = P.AD_CODE ORDER BY ID DESC)
+		--										ELSE (SELECT TOP 1 Territory FROM Main_AD_STRUCTURE WHERE /*status IN ('Appointed','Promoted') AND*/  AD_Code = P.AD_CODE AND Office_Code = C.AD_OFFICES ORDER BY ID DESC) END
+		
+		
+		, [TAT_FUNCTION] = CASE WHEN (FULLY_DATE IS NULL) THEN DATEDIFF(DAY, CLM_SUBMIT_DATE, PAYMENT_NOTICED)
+															ELSE DATEDIFF(DAY, FULLY_DATE, PAYMENT_NOTICED) END
+			-- ?i?u ch?nh ngày 26/3/21 by Ngân email				
+
+			
+		, [TAT_CS] = CASE WHEN (CLAIM_DECISION_MASTER = 'Reject' AND REFUND_AMOUNT = 0) THEN DATEDIFF(DAY, CLM_SUBMIT_DATE, PAYMENT_NOTICED)
+												ELSE CASE WHEN ACCOUNTING_NOTICED  IS NOT NULL THEN DATEDIFF(DAY, CLM_SUBMIT_DATE, ACCOUNTING_NOTICED ) ELSE DATEDIFF(DAY, CLM_SUBMIT_DATE, PAYMENT_NOTICED) END
+											END
+	
+FROM D AS C 
+
+
+)
+
+
+SELECT [CLAIM_NO]
+      ,[POLICY_NUMBER]
+      ,[LA_NAME]
+      ,[COMPONENT_CODE]
+      ,[CLAIM_NATURE]
+      ,[SUM_ASSURED]
+      ,[STATUS]
+      ,[REQUEST_NUMBER]
+      ,[AGENT_NAME]
+      ,[AGENT_CODE]
+      ,[AD_NAME]
+      ,[AD_OFFICES]
+      ,[SCAN_LOCATION]
+      ,[PROPOSAL_DATE]
+      ,[RISK_COMMENCEMENT_DATE]
+      ,[PAID_TO_DATE]
+      ,[CLM_SUBMIT_DATE]
+      ,[EVENT_DATE]
+      ,[ADMISSION_DATE]
+      ,[DISCHARGE_DATE]
+      ,[LOS_DAYS]
+      ,[TREATMENT]
+      ,[HOSPITAL]
+      ,[DIAGNOSTIC_RESULT]
+      ,[ICD_CODE]
+      ,[INVESTIGATION_STR]
+      ,[LETTER_DATE_1]
+      ,[LETTER_DATE_2]
+      ,[FULLY_DATE]
+      ,[CLOSED_DATE]
+      ,[TOTAL]
+      ,[CLAIM_DECISION]
+      ,[TERM_CONDITION]
+      ,CASE WHEN [REASON_REJECT] = '' THEN NULL
+						ELSE REASON_REJECT
+	   END REASON_REJECT
+				
+      ,[PAYMENT_NOTICED]
+      ,[REFUND_AMOUNT]
+      ,[CLAIM_STATUS]
+      ,[PAID_DATE1]
+      ,[LA_NUMBER]
+      ,[APPROVAL_DAYS]
+      ,[DAY_ICU]
+      ,[CLAIM_DECISION_MASTER]
+      ,[DECISION_DATE]
+      , AD_CODE
+	  , TERRITORY
+	  
+	  , TAT_FUNCTION
+	  , TAT_CS
+	  , CASE WHEN A.TAT_FUNCTION <= 4 THEN '0-4 days'
+			WHEN A.TAT_FUNCTION > 4 AND A.TAT_FUNCTION <=10 THEN '5-10 days'
+			WHEN A.TAT_FUNCTION > 10 AND A.TAT_FUNCTION <=20 THEN '11-20 days'
+			WHEN A.TAT_FUNCTION > 20 AND A.TAT_FUNCTION <=30 THEN '21-30 days'
+			ELSE '30++ days'
+		END TAT_FUNCTION_GROUPS
+		
+	  , 
+		CASE WHEN A.TAT_CS <= 4 THEN '0-4 days'
+			WHEN A.TAT_CS > 4 AND A.TAT_CS <=10 THEN '5-10 days'
+			WHEN A.TAT_CS > 10 AND A.TAT_CS <=20 THEN '11-20 days'
+			WHEN A.TAT_CS > 20 AND A.TAT_CS <=30 THEN '21-30 days'
+			ELSE '30++ days'
+		END TAT_CS_GROUPS
+	
+	, GROUP_CLAIM_DECISION
+	, NON_DISCLOSED
+	, IIF([EVENT_DATE] IS NOT NULL,IIF(DATEDIFF(DAY,[RISK_COMMENCEMENT_DATE],[EVENT_DATE]) <= 60,'Early',''),'') AS Check_Early
+	
+FROM 
+(
+SELECT  
+		[CLAIM_NO]
+      ,[POLICY_NUMBER]
+      ,[LA_NAME]
+      ,[COMPONENT_CODE]
+      ,[CLAIM_NATURE]
+      ,[SUM_ASSURED]
+      ,[STATUS]
+      ,[REQUEST_NUMBER]
+      ,[AGENT_NAME]
+      ,[AGENT_CODE]
+      ,[AD_NAME]
+      ,[AD_OFFICES]
+      ,[SCAN_LOCATION]
+      ,[PROPOSAL_DATE]
+      ,[RISK_COMMENCEMENT_DATE]
+      ,[PAID_TO_DATE]
+      ,[CLM_SUBMIT_DATE]
+      ,[EVENT_DATE]
+      ,[ADMISSION_DATE]
+      ,[DISCHARGE_DATE]
+      ,[LOS_DAYS]
+      ,[TREATMENT]
+      ,[HOSPITAL]
+      ,[DIAGNOSTIC_RESULT]
+      ,[ICD_CODE]
+      ,[INVESTIGATION_STR]
+      ,[LETTER_DATE_1]
+      ,[LETTER_DATE_2]
+      ,[FULLY_DATE]
+      ,[CLOSED_DATE]
+      ,[TOTAL]
+      ,[CLAIM_DECISION]
+      ,[TERM_CONDITION]
+      ,[REASON_REJECT]
+      ,[PAYMENT_NOTICED]
+      ,[REFUND_AMOUNT]
+      ,[CLAIM_STATUS]
+      ,[PAID_DATE1]
+      ,[LA_NUMBER]
+      ,[APPROVAL_DAYS]
+      ,[DAY_ICU]
+      ,[CLAIM_DECISION_MASTER]
+      ,[DECISION_DATE]
+      ,IIF(S.AD_Code IS NULL, E.AD_Code_Current, S.AD_Code) AS [AD_CODE]
+	  ,IIF(T.Territory IS NULL, T2.Territory, T.Territory) AS [TERRITORY]
+	  ,IIF(S.Territory_Code IS NULL, S2.Territory_Code,S.Territory_Code) AS [TERRITORY_CODE]
+      ,[TAT_FUNCTION]
+      ,[TAT_CS]
+      ,[GROUP_CLAIM_DECISION]
+      ,[NON_DISCLOSED]
+	  ,ID_AD
+	  ,ID_AD_Current
+	  ,AD_Code_Current
+	  ,ID_AGENT_FIX AS ID_AGENT
+
+FROM E
+LEFT JOIN Main_AD_STRUCTURE_FULL AS S
+ON E.ID_AD = S.ID
+
+LEFT JOIN [DPO].[DW_Territory] AS T
+ON S.Territory_Code = T.Code
+
+LEFT JOIN Main_AD_STRUCTURE_FULL AS S2
+ON E.ID_AD_Current = S2.ID
+
+LEFT JOIN [DPO].[DW_Territory] AS T2
+ON S2.Territory_Code = T2.Code
+
+--WHERE YEAR(C.CLM_SUBMIT_DATE) = '2020'
+)A
+GO
+
+

@@ -1,0 +1,29 @@
+{
+  "name": "FPL - AA Team",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Leader]),TOPN(1,VALUES(Cal_AD_Premium[Leader])),BLANK())",
+    "",
+    "VAR L1 = ",
+    "        ADDCOLUMNS(",
+    "            SUMMARIZE(Cal_AD_Premium",
+    "                ,Cal_AD_Premium[Leader]",
+    "                ,Cal_AD_Premium[Cut-off Calendar]",
+    "                ,Cal_AD_Premium[Servicing Agent]",
+    "            )",
+    "            ,\"AA\", IF([FPW - CC Personal] > 0, 1,0))",
+    "RETURN",
+    "    SUMX(",
+    "            L1,",
+    "            [AA]",
+    "    )",
+    "",
+    "--RETURN CALCULATE(",
+    "--            SUM(Cal_Active_Agent_by_Month[Active_Agent])",
+    "--            ,Cal_Active_Agent_by_Month[Compliance]<>1",
+    "--            ,Cal_Active_Agent_by_Month[Leader] = Agent",
+    "--)",
+    ""
+  ],
+  "formatString": "G"
+}

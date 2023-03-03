@@ -1,0 +1,7 @@
+{
+  "name": "L2",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "L2",
+  "sourceProviderType": "WChar"
+}

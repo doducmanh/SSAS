@@ -1,0 +1,6 @@
+{
+  "name": "Reason Terminated",
+  "dataType": "string",
+  "sourceColumn": "Reason Terminated",
+  "sourceProviderType": "WChar"
+}

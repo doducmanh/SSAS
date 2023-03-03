@@ -1,0 +1,24 @@
+{
+  "type": "calculated",
+  "name": "ENFORCE_MONTH",
+  "dataType": "boolean",
+  "isDataTypeInferred": true,
+  "expression": [
+    "(",
+    "    Agency_Structure[ExplodedDate]",
+    "        >= FORMAT ( Agency_Structure[Date_Appointed], \"yyyyMM\" )",
+    ")",
+    "    && (",
+    "        Agency_Structure[ExplodedDate]",
+    "            < FORMAT (",
+    "                IF (",
+    "                    ISBLANK ( Agency_Structure[Terminated_date] ),",
+    "                    TODAY (),",
+    "                    Agency_Structure[Terminated_date]",
+    "                ),",
+    "                \"yyyyMM\"",
+    "            )",
+    "    )"
+  ],
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+}

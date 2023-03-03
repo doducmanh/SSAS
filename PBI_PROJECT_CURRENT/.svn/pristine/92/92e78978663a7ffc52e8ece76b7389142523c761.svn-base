@@ -1,0 +1,7 @@
+{
+  "name": "a6193e8e-9209-4354-acfa-7e8a416558d2",
+  "fromTable": "DimAgentSFC",
+  "fromColumn": "ID_AGENT",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

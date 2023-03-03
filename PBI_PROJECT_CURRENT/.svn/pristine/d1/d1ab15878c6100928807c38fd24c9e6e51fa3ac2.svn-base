@@ -1,0 +1,5 @@
+{
+  "name": "Slicer - StructureMonth",
+  "expression": "MAX(FactADHistory[ExplodedDate] )",
+  "formatString": "G"
+}

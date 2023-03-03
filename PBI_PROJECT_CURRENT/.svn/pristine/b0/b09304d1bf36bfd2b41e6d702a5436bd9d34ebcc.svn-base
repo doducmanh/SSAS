@@ -1,0 +1,31 @@
+{
+  "name": "FPL - Sale Team 2",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Agency_Structure[Leader]),TOPN(1,VALUES(Agency_Structure[Leader])),BLANK())",
+    "VAR AgentAppointedDate = LOOKUPVALUE(Agent_List[Date_Appointed],Agent_List[Agent_Number],Agent)",
+    "VAR AgentAppointedDateFullMonth =  IF(DAY(AgentAppointedDate) > 10, EDATE(AgentAppointedDate,-1),AgentAppointedDate)",
+    "",
+    "VAR L1 =  CALCULATE(",
+    "    SUM(Cal_AD_Premium[FYPincTopup]),",
+    "    Cal_AD_Premium[Compliance]=0,",
+    "    Cal_AD_Premium[Cross_Sales]<>\"CROSS_SALES\",",
+    "    --Agency_Structure[Leader]=Agent,",
+    "    Agency_Structure[GRADE] = \"IC\",",
+    "    Agency_Structure[Leader Grade]<>\"IC\",",
+    "    Cal_AD_Premium[Collected Date] >=AgentAppointedDateFullMonth",
+    "    )",
+    "VAR L2 =  CALCULATE(",
+    "    SUM(Cal_AD_Premium[FYPincTopup]),",
+    "    Cal_AD_Premium[Compliance]=0,",
+    "    Cal_AD_Premium[Cross_Sales]<>\"CROSS_SALES\",",
+    "    ",
+    "    Agency_Structure[Leader]=Agent,",
+    "    Agency_Structure[GRADE] <> \"IC\",",
+    "    Cal_AD_Premium[Collected Date] >=AgentAppointedDateFullMonth",
+    "    )",
+    "",
+    "RETURN L1 + L2"
+  ],
+  "formatString": "G"
+}

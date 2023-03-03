@@ -1,0 +1,5 @@
+{
+  "name": "Hoi An - Result",
+  "expression": "IF([Hoi An - Total FYP]/220000000 >= 2 && ([Hoi An - K2 Personal] >= 0.7 || [Hoi An - K2 Expect Personal]=0) , 2, IF([Hoi An - Total FYP] >=220000000 && ([Hoi An - K2 Personal] >= 0.7 || [Hoi An - K2 Expect Personal]=0),1))",
+  "formatString": "G"
+}

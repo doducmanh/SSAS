@@ -1,0 +1,5 @@
+{
+  "name": "Birthday",
+  "dataType": "dateTime",
+  "sourceColumn": "Birthday"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AREF",
+  "dataType": "string",
+  "sourceColumn": "AREF",
+  "sourceProviderType": "Char"
+}

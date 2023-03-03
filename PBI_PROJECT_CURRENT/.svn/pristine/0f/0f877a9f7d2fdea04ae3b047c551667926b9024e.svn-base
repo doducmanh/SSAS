@@ -1,0 +1,6 @@
+{
+  "name": "LA_CLIENT_NUMBER",
+  "dataType": "string",
+  "sourceColumn": "LA_CLIENT_NUMBER",
+  "sourceProviderType": "Char"
+}

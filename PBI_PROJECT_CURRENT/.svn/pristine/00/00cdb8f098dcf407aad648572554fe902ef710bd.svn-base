@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "IDIA",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_Premium[Issuing Agent] & Cal_AD_Premium[Cut-off Calendar]"
+}

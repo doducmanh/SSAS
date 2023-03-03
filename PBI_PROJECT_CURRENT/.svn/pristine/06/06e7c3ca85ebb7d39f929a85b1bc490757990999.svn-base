@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ID",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AFYP[Issuing_Agent] & FORMAT(Cal_AFYP[Policy_Issue_Date],\"yyyyMM\")"
+}

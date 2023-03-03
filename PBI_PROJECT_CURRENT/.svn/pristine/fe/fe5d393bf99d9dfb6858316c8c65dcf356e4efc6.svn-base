@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ID",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "FactCSSubmission[AGENT_CODE]& FORMAT ( FactCSSubmission[TRANS_DATE], \"YYYYMM\" )"
+}

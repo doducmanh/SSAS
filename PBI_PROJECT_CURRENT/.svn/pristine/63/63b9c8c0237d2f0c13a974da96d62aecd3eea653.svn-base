@@ -1,0 +1,5 @@
+{
+  "name": "Alternate_Address",
+  "dataType": "string",
+  "sourceColumn": "Alternate_Address"
+}

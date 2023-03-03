@@ -1,0 +1,6 @@
+{
+  "name": "CDOIndex",
+  "dataType": "int64",
+  "sourceColumn": "CDOIndex",
+  "sourceProviderType": "Integer"
+}

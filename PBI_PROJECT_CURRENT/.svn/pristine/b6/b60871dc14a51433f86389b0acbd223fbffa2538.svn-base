@@ -1,0 +1,27 @@
+{
+  "name": "Hoi An - Active Agent - Team",
+  "expression": [
+    "",
+    "VAR Agent =",
+    "    IF (",
+    "        HASONEFILTER ( Agency_Structure[Leader] ),",
+    "        TOPN ( 1, VALUES ( Agency_Structure[Leader] ) ),",
+    "        BLANK ()",
+    "    )",
+    "VAR MINMONTH =",
+    "    MIN ( DimDate[Date] )",
+    "VAR MAXMONTH =",
+    "    MAX ( DimDate[Date] )",
+    "VAR AA =",
+    "    CALCULATE (",
+    "        SUM ( Cal_Active_Agent_by_Month[Active_Agent] ),",
+    "        Agency_Structure[Leader] = Agent,",
+    "        Cal_Active_Agent_by_Month[Comliance] <> 1,",
+    "        Cal_Active_Agent_by_Month[MONTH_ACTIVE] >= 202202",
+    "            && Cal_Active_Agent_by_Month[MONTH_ACTIVE] <= 202204",
+    "    ) --,Agency_Structure[Leader] = Agent)",
+    "RETURN",
+    "    AA"
+  ],
+  "formatString": "G"
+}

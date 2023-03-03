@@ -1,0 +1,7 @@
+{
+  "name": "IsHoliday",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "IsHoliday",
+  "sourceProviderType": "Char"
+}

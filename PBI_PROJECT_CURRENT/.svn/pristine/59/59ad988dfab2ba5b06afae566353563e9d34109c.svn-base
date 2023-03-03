@@ -1,0 +1,9 @@
+{
+  "name": "AG_30Days",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "DISTINCTCOUNT(Cal_AD_Daily_Policy[Issuing Agent]),",
+    "FILTER(Cal_AD_Daily_Policy, [CC_30Days] >2))"
+  ]
+}

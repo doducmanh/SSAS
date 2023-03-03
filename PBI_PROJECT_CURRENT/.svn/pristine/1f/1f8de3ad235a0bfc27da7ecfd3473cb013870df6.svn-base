@@ -1,0 +1,4 @@
+{
+  "name": "MDRT - MDRT",
+  "expression": "IF([MDRT - Total FYP] < 656024200, 656024200 - [MDRT - Total FYP], 0)"
+}

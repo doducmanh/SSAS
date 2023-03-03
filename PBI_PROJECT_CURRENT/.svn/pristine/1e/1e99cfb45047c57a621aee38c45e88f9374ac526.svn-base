@@ -1,0 +1,10 @@
+{
+  "name": "Manpower Terminated",
+  "expression": [
+    " ",
+    "Var filterdate = EOMONTH(IF(MAX(DimDate[Date])>TODAY(),TODAY(),MAX(DimDate[Date])),0)",
+    "Return",
+    "CALCULATE(COUNTROWS(DimAgentSFC),",
+    "DimAgentSFC[Is_Terminated] = 1) "
+  ]
+}

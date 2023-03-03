@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "DateInt Issued Date",
+  "dataType": "int64",
+  "isHidden": true,
+  "expression": "IF(ISBLANK(Cal_AD_Premium[Issued Date]),BLANK(),FORMAT(Cal_AD_Premium[Issued Date],\"YYYYMMDD\"))"
+}

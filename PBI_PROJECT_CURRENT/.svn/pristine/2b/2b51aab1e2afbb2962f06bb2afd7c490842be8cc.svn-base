@@ -1,0 +1,5 @@
+{
+  "name": "Hoi An - Ticket",
+  "expression": "SUMX(VALUES(Cal_AD_Premium[Servicing Agent]),[Hoi An - Result])",
+  "formatString": "G"
+}

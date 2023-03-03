@@ -1,0 +1,5 @@
+{
+  "name": "Sale Whole Team",
+  "expression": "[Sale Personal] + [Sale Team]",
+  "formatString": "G"
+}

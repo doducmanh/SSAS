@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ID_MONTH",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "FORMAT(DimDate[Date],\"yyyyMM\")"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "BOM",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0122",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4780"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0124",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6120"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0119",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4704"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0121",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4773"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0106",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2687"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0105",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1385"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DimADSecurity",
+      "filterExpression": "FALSE()"
+    }
+  ]
+}

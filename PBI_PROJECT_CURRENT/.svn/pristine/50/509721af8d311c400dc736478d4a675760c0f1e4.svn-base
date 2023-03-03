@@ -1,0 +1,12 @@
+{
+  "name": "PO - Service Month",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Servicing Agent]), VALUES(Cal_AD_Premium[Servicing Agent]))",
+    "VAR AgentAppointed = LOOKUPVALUE(Main_AGENT_INFO_DA[Appointed_TAPSU],Main_AGENT_INFO_DA[Agent_Number],Agent)",
+    "VAR fullMonthAppointed = IF(DAY(AgentAppointed)<=10,EDATE(AgentAppointed,-1),AgentAppointed)",
+    "VAR filterdate = DATE(2022,05,31)",
+    "RETURN CALCULATE(DATEDIFF(IF(fullMonthAppointed>filterdate,filterdate,fullMonthAppointed),filterdate,MONTH))"
+  ],
+  "formatString": "G"
+}

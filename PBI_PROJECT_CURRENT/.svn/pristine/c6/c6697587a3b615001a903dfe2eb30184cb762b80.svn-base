@@ -1,0 +1,5 @@
+{
+  "name": "Slicer - K2 Expected",
+  "expression": "INT(sum(Cal_AD_K2[Y2 EXPECTED PREM]) <> 0)",
+  "formatString": "G"
+}

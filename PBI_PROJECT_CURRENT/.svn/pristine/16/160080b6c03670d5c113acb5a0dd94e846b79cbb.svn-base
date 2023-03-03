@@ -1,0 +1,7 @@
+{
+  "name": "AA",
+  "expression": [
+    " ",
+    "sum(Cal_Active_Agent_by_Month[Active_Agent])"
+  ]
+}

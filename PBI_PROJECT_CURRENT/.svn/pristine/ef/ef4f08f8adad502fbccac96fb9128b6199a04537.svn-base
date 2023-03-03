@@ -1,0 +1,7 @@
+{
+  "name": "6126a220-2b96-4ece-906f-b82995b63834",
+  "fromTable": "Cal_AD_Pending",
+  "fromColumn": "TRANSACTION_DATE",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "Full_Month",
+  "dataType": "int64",
+  "expression": "IF(DAY(Cal_AD_Premium[SA_Date_Appointed])>10 && MONTH(Cal_AD_Premium[Collected Date]) = MONTH(Cal_AD_Premium[SA_Date_Appointed]) && YEAR(Cal_AD_Premium[Collected Date]) = YEAR(Cal_AD_Premium[SA_Date_Appointed]), FORMAT(EOMONTH(Cal_AD_Premium[Collected Date],0) +1,\"YYYYMM\"), Cal_AD_Premium[Cut-off Calendar])"
+}

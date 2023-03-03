@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "IDM",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_Agent_Status[Agent_Number] & FORMAT(Cal_AD_Agent_Status[DateActive], \"yyyyMM\")"
+}

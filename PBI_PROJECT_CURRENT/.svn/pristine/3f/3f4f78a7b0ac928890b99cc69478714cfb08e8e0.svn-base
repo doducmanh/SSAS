@@ -1,0 +1,7 @@
+{
+  "name": "CalculatedTable 1",
+  "source": {
+    "type": "calculated",
+    "expression": "DATATABLE(\"Choose Structure\", STRING,{{\"Current\"},{\"Last14M\"}})"
+  }
+}

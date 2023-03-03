@@ -1,0 +1,5 @@
+{
+  "name": "PO_Agent_Number",
+  "dataType": "string",
+  "sourceColumn": "PO_Agent_Number"
+}

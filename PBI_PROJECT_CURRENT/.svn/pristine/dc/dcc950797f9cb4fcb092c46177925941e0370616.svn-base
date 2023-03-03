@@ -1,0 +1,6 @@
+{
+  "name": "L5 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L5 Direct",
+  "sourceProviderType": "Integer"
+}

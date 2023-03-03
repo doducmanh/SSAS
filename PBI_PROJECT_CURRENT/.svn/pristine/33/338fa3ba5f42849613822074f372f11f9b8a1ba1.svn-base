@@ -1,0 +1,6 @@
+{
+  "name": "Leader",
+  "dataType": "string",
+  "sourceColumn": "Leader",
+  "sourceProviderType": "Char"
+}

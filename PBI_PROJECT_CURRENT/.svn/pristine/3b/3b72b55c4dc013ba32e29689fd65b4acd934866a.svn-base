@@ -1,0 +1,13 @@
+{
+  "name": "Appointed_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Appointed_Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "PO_IDDATE",
+  "dataType": "dateTime",
+  "sourceColumn": "PO_IDDATE",
+  "formatString": "General Date",
+  "sourceProviderType": "DBDate"
+}

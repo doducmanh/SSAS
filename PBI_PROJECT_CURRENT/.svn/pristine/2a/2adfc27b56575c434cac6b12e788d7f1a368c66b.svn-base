@@ -1,0 +1,5 @@
+{
+  "name": "TAPSU_SALES",
+  "dataType": "int64",
+  "sourceColumn": "TAPSU_SALES"
+}

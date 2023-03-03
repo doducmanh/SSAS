@@ -1,0 +1,9 @@
+{
+  "name": "DimADManpower",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": " SELECT [DPO].[Main_AD_STRUCTURE_FULL].* FROM [DPO].[Main_AD_STRUCTURE_FULL] ",
+    "dataSource": "SqlServer PowerBI"
+  }
+}

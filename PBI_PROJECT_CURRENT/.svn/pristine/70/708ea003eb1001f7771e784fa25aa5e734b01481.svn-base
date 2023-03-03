@@ -1,0 +1,7 @@
+{
+  "name": "4767f2b0-6799-41ab-9314-b4237e7a1d06",
+  "fromTable": "Cal_AD_Daily_Policy",
+  "fromColumn": "IDM",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

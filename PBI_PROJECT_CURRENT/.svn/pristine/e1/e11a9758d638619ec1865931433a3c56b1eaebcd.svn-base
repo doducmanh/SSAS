@@ -1,0 +1,6 @@
+{
+  "name": "LOAN_STATUS",
+  "dataType": "int64",
+  "sourceColumn": "LOAN_STATUS",
+  "sourceProviderType": "Integer"
+}

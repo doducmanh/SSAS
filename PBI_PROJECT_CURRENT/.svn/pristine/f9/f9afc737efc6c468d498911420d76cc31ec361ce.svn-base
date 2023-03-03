@@ -1,0 +1,17 @@
+{
+  "name": "DimADHeadcount",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": " SELECT [DPO].[Main_AD_STRUCTURE_FULL].* FROM [DPO].[Main_AD_STRUCTURE_FULL] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "Main_AD_STRUCTURE_FULL"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    }
+  ]
+}

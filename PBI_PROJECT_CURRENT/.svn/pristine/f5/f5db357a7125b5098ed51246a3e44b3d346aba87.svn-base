@@ -1,0 +1,5 @@
+{
+  "name": "CASE_COUNT",
+  "dataType": "int64",
+  "sourceColumn": "CASE_COUNT"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CONTRACT_NUMBER",
+  "dataType": "string",
+  "sourceColumn": "CONTRACT_NUMBER",
+  "sourceProviderType": "Char"
+}

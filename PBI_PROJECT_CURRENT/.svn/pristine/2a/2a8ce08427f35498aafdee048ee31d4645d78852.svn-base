@@ -1,0 +1,5 @@
+{
+  "name": "MDRT - TOT - Count",
+  "expression": "IF([MDRT - TOT] = 0,1,0)",
+  "formatString": "G"
+}

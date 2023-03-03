@@ -1,0 +1,5 @@
+{
+  "name": "Appointed_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Appointed_Date"
+}

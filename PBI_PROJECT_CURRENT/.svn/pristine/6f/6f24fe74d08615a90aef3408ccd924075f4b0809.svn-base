@@ -1,0 +1,8 @@
+{
+  "name": "a5080113-3de0-480d-adac-75cef99ff48f",
+  "fromTable": "Cal_AD_Premium",
+  "fromColumn": "IDIA",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID",
+  "isActive": false
+}

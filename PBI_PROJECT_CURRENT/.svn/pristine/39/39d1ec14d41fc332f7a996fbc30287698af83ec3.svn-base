@@ -1,0 +1,16 @@
+{
+  "name": "FPW - Case Size",
+  "expression": [
+    "",
+    "VAR MinDate =",
+    "    MIN ( DimDate[Date] )",
+    "VAR MaxDate =",
+    "    MAX ( DimDate[Date] )",
+    "VAR MonthCount =",
+    "    DATEDIFF ( MinDate, MaxDate, MONTH ) + 1",
+    "RETURN",
+    "    DIVIDE ( [Hoi An - Sale Personal], [FPW - CC Personal], 0 )",
+    "--RETURN L1"
+  ],
+  "formatString": "G"
+}

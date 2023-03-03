@@ -1,0 +1,6 @@
+{
+  "name": "GM_Agent_Status",
+  "dataType": "string",
+  "sourceColumn": "GM_Agent_Status",
+  "sourceProviderType": "Char"
+}

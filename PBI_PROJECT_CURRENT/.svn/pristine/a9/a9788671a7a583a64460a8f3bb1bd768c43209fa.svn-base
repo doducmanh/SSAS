@@ -1,0 +1,6 @@
+{
+  "name": "Modal_Factor",
+  "dataType": "decimal",
+  "sourceColumn": "Modal_Factor",
+  "sourceProviderType": "decimal"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Hierarchy AL Name",
+  "levels": [
+    {
+      "name": "GM Name",
+      "ordinal": 0,
+      "column": "GM Name"
+    },
+    {
+      "name": "RM Name",
+      "ordinal": 1,
+      "column": "RM Name"
+    },
+    {
+      "name": "DM Name",
+      "ordinal": 2,
+      "column": "DM Name"
+    },
+    {
+      "name": "FM Name",
+      "ordinal": 3,
+      "column": "FM Name"
+    }
+  ]
+}

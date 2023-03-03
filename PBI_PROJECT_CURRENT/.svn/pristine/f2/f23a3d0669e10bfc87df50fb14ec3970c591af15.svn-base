@@ -1,0 +1,10 @@
+{
+  "name": "% CPA LY",
+  "expression": [
+    "",
+    "VAR CL = [Total CPA MTD] - [Total CPA LY]",
+    "RETURN",
+    "DIVIDE(CL,[Total CPA LY])"
+  ],
+  "formatString": "0.00%;-0.00%;0.00%"
+}

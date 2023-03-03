@@ -1,0 +1,6 @@
+{
+  "name": "SFC",
+  "dataType": "string",
+  "sourceColumn": "SFC",
+  "sourceProviderType": "Char"
+}

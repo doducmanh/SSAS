@@ -1,0 +1,8 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Choose Structure",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Choose Structure]"
+}

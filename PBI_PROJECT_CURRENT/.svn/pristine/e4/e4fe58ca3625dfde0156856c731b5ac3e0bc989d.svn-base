@@ -1,0 +1,5 @@
+{
+  "name": "SLICER - IP",
+  "expression": "INT(SUM(FactCSSubmission[INSTALMENT_PREMIUM]) <> 0)",
+  "formatString": "G"
+}

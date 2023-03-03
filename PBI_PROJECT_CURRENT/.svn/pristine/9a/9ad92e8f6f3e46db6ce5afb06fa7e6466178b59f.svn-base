@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Compliance Leader",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "if(lookupvalue('Agents Discipline List'[Cancel],'Agents Discipline List'[Cancel],Cal_AD_Premium[IDLeader]),1,0)"
+}

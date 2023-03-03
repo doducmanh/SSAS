@@ -1,0 +1,6 @@
+{
+  "name": "Last_Status",
+  "dataType": "string",
+  "sourceColumn": "Last_Status",
+  "sourceProviderType": "Char"
+}

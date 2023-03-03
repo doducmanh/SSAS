@@ -1,0 +1,5 @@
+{
+  "name": "K2",
+  "expression": "DIVIDE(SUM(Cal_AD_K2[Y2 ACTUAL PREM]), SUM(Cal_AD_K2[Y2 EXPECTED PREM]), 0)",
+  "formatString": "#,0.00%;-#,0.00%;#,0.00%"
+}

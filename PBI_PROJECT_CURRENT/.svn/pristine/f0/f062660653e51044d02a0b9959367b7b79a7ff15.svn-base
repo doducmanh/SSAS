@@ -1,0 +1,6 @@
+{
+  "name": "LA_SEX",
+  "dataType": "string",
+  "sourceColumn": "LA_SEX",
+  "sourceProviderType": "Char"
+}

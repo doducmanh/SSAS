@@ -1,0 +1,5 @@
+{
+  "name": "FPL - AA Avg",
+  "expression": "DIVIDE('_Measures Folder'[FPL - AA Team],IF('_Measures Folder'[FPL - Service Month]>=12,12,[FPL - Service Month]),0)",
+  "formatString": "G"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "DUMMY",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "IF(LEFT(DimAgentSFC[Agent_Name],5) <> \"DUMMY\",0,1)"
+}

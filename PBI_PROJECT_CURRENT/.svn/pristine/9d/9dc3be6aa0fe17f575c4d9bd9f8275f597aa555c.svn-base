@@ -1,0 +1,6 @@
+{
+  "name": "ID",
+  "dataType": "int64",
+  "sourceColumn": "ID",
+  "sourceProviderType": "BigInt"
+}

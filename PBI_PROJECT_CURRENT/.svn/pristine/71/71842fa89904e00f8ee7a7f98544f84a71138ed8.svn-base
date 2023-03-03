@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Leader Name",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "lookupvalue(Agent_List[Agent_Name],Agent_List[Agent_Number],Agency_Structure[Leader])"
+}

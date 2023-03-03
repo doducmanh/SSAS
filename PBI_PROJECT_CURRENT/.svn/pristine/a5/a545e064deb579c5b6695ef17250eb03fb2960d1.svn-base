@@ -1,0 +1,6 @@
+{
+  "name": "AD_Last_Status",
+  "dataType": "string",
+  "sourceColumn": "AD_Last_Status",
+  "sourceProviderType": "Char"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Y2 ACTUAL PREM",
+  "dataType": "decimal",
+  "sourceColumn": "Y2 ACTUAL PREM",
+  "sourceProviderType": "decimal"
+}

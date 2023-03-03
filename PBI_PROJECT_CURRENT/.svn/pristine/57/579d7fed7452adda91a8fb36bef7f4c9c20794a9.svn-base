@@ -1,0 +1,7 @@
+{
+  "name": "Y2 Expected",
+  "expression": [
+    " SWITCH(IF ( HASONEVALUE ( 'Structure'[Choose Structure]), VALUES ('Structure'[Choose Structure]) ),",
+    "\"Current\",[Y2 Expected Current],\"Last14M\",[Y2 Expected History])"
+  ]
+}

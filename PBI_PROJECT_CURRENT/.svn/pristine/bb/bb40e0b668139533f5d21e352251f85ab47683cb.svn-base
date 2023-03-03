@@ -1,0 +1,17 @@
+{
+  "name": "Cal_AD_K2",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": " SELECT [DPO].[Cal_AD_K2].* FROM [DPO].[Cal_AD_K2] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "Cal_AD_K2"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    }
+  ]
+}

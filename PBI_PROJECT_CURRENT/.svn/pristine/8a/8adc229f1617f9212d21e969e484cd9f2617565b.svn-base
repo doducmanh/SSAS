@@ -1,0 +1,30 @@
+{
+  "name": "Hierarchy - Agent",
+  "levels": [
+    {
+      "name": "GM_Agent_Name",
+      "ordinal": 0,
+      "column": "GM_Agent_Name"
+    },
+    {
+      "name": "RM_Agent_Name",
+      "ordinal": 1,
+      "column": "RM_Agent_Name"
+    },
+    {
+      "name": "DM_Agent_Name",
+      "ordinal": 2,
+      "column": "DM_Agent_Name"
+    },
+    {
+      "name": "FM_Agent_Name",
+      "ordinal": 3,
+      "column": "FM_Agent_Name"
+    },
+    {
+      "name": "Agent_Name",
+      "ordinal": 4,
+      "column": "Agent_Name"
+    }
+  ]
+}

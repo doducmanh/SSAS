@@ -1,0 +1,10 @@
+{
+  "name": "Total AA MTD",
+  "expression": [
+    "CALCULATE (",
+    "    SUM ( 'Cal_Active_Agent_by_Month'[Active_Agent] ),",
+    "    DATESMTD ( DimDate[Date] )",
+    ")"
+  ],
+  "formatString": "G"
+}

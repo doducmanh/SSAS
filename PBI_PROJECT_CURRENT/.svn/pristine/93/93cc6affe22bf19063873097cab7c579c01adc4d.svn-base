@@ -1,0 +1,6 @@
+{
+  "name": "DayOfWeek",
+  "dataType": "int64",
+  "sourceColumn": "DayOfWeek",
+  "sourceProviderType": "Integer"
+}

@@ -1,0 +1,4 @@
+{
+  "name": "FYP - MTD",
+  "expression": "TOTALMTD(SUM(Cal_AD_Premium[FYPincTopup]),DimDate[Date],ALL(DimDate[Date]))"
+}

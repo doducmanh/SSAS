@@ -1,0 +1,7 @@
+{
+  "name": "CalculatedTable 1",
+  "source": {
+    "type": "calculated",
+    "expression": "distinct(DimDate[Year])"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "UPDATED_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "UPDATED_DATE"
+}

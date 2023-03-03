@@ -1,0 +1,5 @@
+{
+  "name": "Contact Address",
+  "dataType": "string",
+  "sourceColumn": "Contact Address"
+}

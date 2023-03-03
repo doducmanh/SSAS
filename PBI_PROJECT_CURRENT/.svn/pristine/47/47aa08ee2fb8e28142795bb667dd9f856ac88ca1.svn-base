@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Cash - Non Cash",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "IF(FactCSSubmission[PAYMENT_METHOD] = \"Cash\", \"Cash\", \"Non-cash\")"
+}

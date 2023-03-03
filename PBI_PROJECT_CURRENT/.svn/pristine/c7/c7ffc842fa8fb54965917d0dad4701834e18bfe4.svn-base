@@ -1,0 +1,7 @@
+{
+  "name": "FYP",
+  "dataType": "decimal",
+  "sourceColumn": "FYP",
+  "formatString": "#,0",
+  "sourceProviderType": "decimal"
+}

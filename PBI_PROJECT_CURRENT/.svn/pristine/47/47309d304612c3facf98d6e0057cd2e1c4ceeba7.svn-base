@@ -1,0 +1,6 @@
+{
+  "name": "Sum_Assured",
+  "dataType": "decimal",
+  "sourceColumn": "Sum_Assured",
+  "sourceProviderType": "decimal"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "PO - Result - Maintain",
+  "expression": [
+    "",
+    "SWITCH(",
+    "    TRUE()",
+    "    ,[Cal_FYPinclTopup] >=85000000,3",
+    "    ,[Cal_FYPinclTopup] >=50000000,2",
+    "    ,[Cal_FYPinclTopup] >=30000000,1",
+    "    ,0",
+    "",
+    ")"
+  ],
+  "formatString": "G"
+}

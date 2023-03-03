@@ -1,0 +1,6 @@
+{
+  "name": "WeekEnding",
+  "dataType": "string",
+  "sourceColumn": "WeekEnding",
+  "sourceProviderType": "Char"
+}

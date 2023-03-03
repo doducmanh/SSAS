@@ -1,0 +1,6 @@
+{
+  "name": "AD_Grade",
+  "dataType": "string",
+  "sourceColumn": "AD_Grade",
+  "sourceProviderType": "Char"
+}

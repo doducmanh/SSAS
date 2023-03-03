@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Current_Structure",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "if(FactADHistory[ExplodedDate] = DATE(YEAR(TODAY()), MONTH(TODAY()), 1),1,0)"
+}

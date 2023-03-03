@@ -1,0 +1,14 @@
+{
+  "name": "MDRT Q2 - Bonus",
+  "expression": [
+    "",
+    "SWITCH(",
+    "    TRUE()",
+    "    ,[MDRT Q2 - Title]=3 && [MDRT Q1 - Title] <= [MDRT Q2 - Title],45000000",
+    "    ,[MDRT Q2 - Title]=2 && [MDRT Q1 - Title] <= [MDRT Q2 - Title],21000000",
+    "    ,[MDRT Q2 - Title]=1 && [MDRT Q1 - Title] <= [MDRT Q2 - Title],6000000",
+    ")",
+    ""
+  ],
+  "formatString": "G"
+}

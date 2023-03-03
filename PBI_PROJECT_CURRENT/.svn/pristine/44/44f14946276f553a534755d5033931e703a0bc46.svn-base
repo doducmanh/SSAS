@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Report Month",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": " IF(MONTH(now()) = Month(DimDate[Cut-off Calendar]) && YEAR(now()) = YEAR(DimDate[Cut-off Calendar]), \"Current Month\",IF(YEAR(now()) < YEAR(DimDate[Cut-off Calendar]),BLANK(),DimDate[Cut-off Calendar]))"
+}

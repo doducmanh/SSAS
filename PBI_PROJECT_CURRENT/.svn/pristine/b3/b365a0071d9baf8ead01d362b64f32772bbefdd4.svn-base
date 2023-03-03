@@ -1,0 +1,6 @@
+{
+  "name": "ZDSZDName",
+  "dataType": "string",
+  "sourceColumn": "ZDSZDName",
+  "sourceProviderType": "WChar"
+}

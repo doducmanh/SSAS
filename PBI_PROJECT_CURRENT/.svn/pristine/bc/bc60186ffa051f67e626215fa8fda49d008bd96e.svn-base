@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "SA_Grade",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "LOOKUPVALUE(Agency_Structure[GRADE],Agency_Structure[ID],Cal_AD_Premium[IDSA])"
+}

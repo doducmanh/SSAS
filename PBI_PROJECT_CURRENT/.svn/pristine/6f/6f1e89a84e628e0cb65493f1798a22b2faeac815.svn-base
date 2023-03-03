@@ -1,0 +1,30 @@
+{
+  "name": "Hierarchy ADCodeP",
+  "levels": [
+    {
+      "name": "L1new",
+      "ordinal": 0,
+      "column": "L1new"
+    },
+    {
+      "name": "L2new",
+      "ordinal": 1,
+      "column": "L2new"
+    },
+    {
+      "name": "L3new",
+      "ordinal": 2,
+      "column": "L3new"
+    },
+    {
+      "name": "L4new",
+      "ordinal": 3,
+      "column": "L4new"
+    },
+    {
+      "name": "L5new",
+      "ordinal": 4,
+      "column": "L5new"
+    }
+  ]
+}

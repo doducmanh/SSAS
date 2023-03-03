@@ -1,0 +1,12 @@
+{
+  "name": "Target remaining",
+  "expression": [
+    "IF (",
+    "    Target_AD[ADTarget] <> BLANK ()",
+    "        && Cal_AD_Premium[Cal_FYPinclTopup],",
+    "    Target_AD[ADTarget] - Cal_AD_Premium[Cal_FYPinclTopup],",
+    "    0",
+    ")"
+  ],
+  "formatString": "G"
+}

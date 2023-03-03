@@ -1,0 +1,9 @@
+{
+  "name": "Agent Name Lookup",
+  "expression": [
+    "",
+    "Var Agent = IF(HASONEFILTER(Agency_Structure[Agent_Number]),values(Agency_Structure[Agent_Number]),BLANK())",
+    "RETURN LOOKUPVALUE(Agent_List[Agent_Name],Agent_List[Agent_Number], Agent)"
+  ],
+  "formatString": "G"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Check Office",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "IF(FactCSSubmission[AD_Office_Adjusted]= FactCSSubmission[CHANNEL],\"AD Office\", \"Other Office\")"
+}

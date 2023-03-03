@@ -1,0 +1,152 @@
+{
+  "name": "PHL Dept Head",
+  "modelPermission": "read",
+  "members": [
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0210",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3190"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0105",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1226"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vops0105",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1179"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vops0199",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2228"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vops0293",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6249"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0520",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5029"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0111",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1401"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0416",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4822"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0123",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2278"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0132",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5719"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0120",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2237"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0119",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2227"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vfin0101",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1129"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vfin0102",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1130"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0106",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2687"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vhrd0101",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1132"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vlga0107",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4876"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vitd0101",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-1134"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmkt0128",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2566"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vadm0130",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2245"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vact0133",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6186"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0122",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4780"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0120",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4739"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vmgt0127",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5981"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vfin0125",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5906"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0355",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2463"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0540",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2549"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vops0178",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-3279"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vops0200",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2229"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0140",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-2886"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0645",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-6213"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0751",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-5902"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0480",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4954"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0399",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-4795"
+    },
+    {
+      "memberName": "PHUHUNGLIFE\\vagy0941",
+      "memberId": "S-1-5-21-4168232644-2608435895-2654246334-7123"
+    }
+  ],
+  "tablePermissions": [
+    {
+      "name": "DimADSecurity",
+      "filterExpression": "FALSE()"
+    }
+  ]
+}

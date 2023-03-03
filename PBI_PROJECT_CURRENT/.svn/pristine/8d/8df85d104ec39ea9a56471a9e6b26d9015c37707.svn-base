@@ -1,0 +1,8 @@
+{
+  "name": "AFYP_Gross",
+  "expression": [
+    "",
+    "CALCULATE(SUM(Cal_AD_Premium[AFYP]))"
+  ],
+  "formatString": "G"
+}

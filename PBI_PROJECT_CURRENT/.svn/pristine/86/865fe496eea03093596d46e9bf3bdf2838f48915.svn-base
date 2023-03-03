@@ -1,0 +1,35 @@
+{
+  "name": "Hierarchy Time",
+  "levels": [
+    {
+      "name": "Year",
+      "ordinal": 0,
+      "column": "Year"
+    },
+    {
+      "name": "Month",
+      "ordinal": 3,
+      "column": "Month"
+    },
+    {
+      "name": "Day",
+      "ordinal": 4,
+      "column": "Day"
+    },
+    {
+      "name": "Quarter",
+      "ordinal": 2,
+      "column": "Quarter"
+    },
+    {
+      "name": "Date",
+      "ordinal": 5,
+      "column": "Date"
+    },
+    {
+      "name": "Report Month",
+      "ordinal": 1,
+      "column": "Report Month"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "DemotePromote_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "DemotePromote_Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

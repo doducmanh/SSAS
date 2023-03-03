@@ -1,0 +1,6 @@
+{
+  "name": "L2 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L2 Direct",
+  "sourceProviderType": "Integer"
+}

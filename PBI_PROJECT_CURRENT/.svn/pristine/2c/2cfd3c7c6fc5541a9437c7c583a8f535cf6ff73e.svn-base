@@ -1,0 +1,6 @@
+{
+  "name": "MonthTarget",
+  "dataType": "int64",
+  "sourceColumn": "MonthTarget",
+  "sourceProviderType": "WChar"
+}

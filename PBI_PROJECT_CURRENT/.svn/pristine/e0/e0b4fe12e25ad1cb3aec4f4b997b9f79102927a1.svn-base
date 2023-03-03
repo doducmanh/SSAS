@@ -1,0 +1,5 @@
+{
+  "name": "Total CPA MTD",
+  "expression": "CALCULATE([CasePerActive],DATESMTD(DimDate[Date])) ",
+  "formatString": "#,0.00"
+}

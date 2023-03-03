@@ -1,0 +1,9 @@
+{
+  "name": "Hoi An - Leader Name",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Leader]),TOPN(1,VALUES(Cal_AD_Premium[Leader])),BLANK())",
+    "RETURN LOOKUPVALUE(Agent_List[Agent_Name],Agent_List[Agent_Number],Agent)"
+  ],
+  "formatString": "G"
+}

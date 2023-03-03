@@ -1,0 +1,103 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT --TOP (1000)
+      [POLICY_NUMBER] + [COMPONENT_CODE] AS ID
+	  ,[CLAIM_NO]
+      ,[POLICY_NUMBER]
+      ,[LA_NAME]
+      ,[COMPONENT_CODE]
+      ,[CLAIM_NATURE]
+	  ,CASE
+			WHEN CLAIM_NATURE = 'AC' THEN 'AC'
+			WHEN CLAIM_NATURE = 'ADD' THEN 'AC'
+			WHEN CLAIM_NATURE = 'CI' THEN 'CI'
+			WHEN CLAIM_NATURE = 'HI' THEN 'HI'
+			WHEN CLAIM_NATURE = 'LCI' THEN 'HI'
+			WHEN CLAIM_NATURE = 'DC' THEN 'DeathTPD'
+			WHEN CLAIM_NATURE = 'TPD' THEN 'DeathTPD'
+			WHEN CLAIM_NATURE = 'WP' THEN 'DeathTPD'
+			ELSE [CLAIM_NATURE]
+		END AS CLAIM_TYPE
+      ,[SUM_ASSURED]
+      ,[STATUS]
+      ,[REQUEST_NUMBER]
+      ,[AGENT_NAME]
+      ,[AGENT_CODE]
+      ,[AD_NAME]
+      ,[AD_OFFICES]
+      ,[SCAN_LOCATION]
+      ,[PROPOSAL_DATE]
+      ,[RISK_COMMENCEMENT_DATE]
+      ,[PAID_TO_DATE]
+      ,[CLM_SUBMIT_DATE]
+      ,[EVENT_DATE]
+      ,[ADMISSION_DATE]
+      ,[DISCHARGE_DATE]
+      ,[LOS_DAYS]
+      ,[TREATMENT]
+      ,[HOSPITAL]
+      ,[DIAGNOSTIC_RESULT]
+      ,[ICD_CODE]
+      ,[INVESTIGATION_STR]
+      ,[LETTER_DATE_1]
+      ,[LETTER_DATE_2]
+      ,[FULLY_DATE]
+      ,[CLOSED_DATE]
+      ,[TOTAL]
+      ,[CLAIM_DECISION]
+      ,[TERM_CONDITION]
+      ,[REASON_REJECT]
+      ,[PAYMENT_NOTICED]
+      ,[REFUND_AMOUNT]
+      ,[CLAIM_STATUS]
+      ,[PAID_DATE1]
+      ,[LA_NUMBER]
+      ,[APPROVAL_DAYS]
+      ,[DAY_ICU]
+      ,[CLAIM_DECISION_MASTER]
+      ,[DECISION_DATE]
+      ,[ID]
+      ,[GROUP_CLAIM_DECISION]
+      ,[NON_DISCLOSED]
+      ,[ACCOUNTING_NOTICED]
+  FROM [PowerBI].[DPO].[CLAIM]
+
+
+
+
+  /****** Script for SelectTopNRows command from SSMS  ******/
+WITH A AS
+(
+SELECT TOP (1000)
+	  [CHDRNUM] + [CRTABLE] AS ID
+	  ,[CHDRNUM]
+	  ,[CRTABLE]
+      ,[STATCODE]
+      ,[ISSUED_AGE]
+      ,[SEX]
+      ,[CRRCD]
+      ,[CURRFROM]
+      ,[LAST OVER DUE DATE]
+      ,[PREVIOUS SA]
+      ,[CHANGE SA]
+
+  FROM [PowerBI].[DPO].[ACT_R_RAW]
+  )
+
+,REEVPF_A AS(
+SELECT --TOP 10000
+       [CHDRNUM] + [CRTABLE] AS ID
+	  ,[CHDRNUM]
+      ,[CRTABLE]
+      ,[OCCPCLAS]
+
+FROM [PowerBI].[DPO].[REEVPF]
+
+)
+,REEVPF_FINAL AS (
+SELECT DISTINCT A.ID
+	,A.CHDRNUM
+	,A.CRTABLE
+	,A.OCCPCLAS
+
+FROM REEVPF_A AS A
+)

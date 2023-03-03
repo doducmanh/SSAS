@@ -1,0 +1,13 @@
+{
+  "name": "Contest FYP",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "[Cal_FYP_no_Topup],",
+    "Cal_AD_Premium[Proposal Receive Date] >=DATE(2022,02,14) ",
+    "&& Cal_AD_Premium[Proposal Receive Date] <=DATE(2022,02,19),",
+    "Cal_AD_Premium[Issued Date] <=DATE(2022,02,28) ",
+    ")"
+  ],
+  "formatString": "G"
+}

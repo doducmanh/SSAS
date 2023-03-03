@@ -1,0 +1,17 @@
+{
+  "name": "DimOffice",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": " SELECT [DPO].[DW_Office].* FROM [DPO].[DW_Office] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DW_Office"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    }
+  ]
+}

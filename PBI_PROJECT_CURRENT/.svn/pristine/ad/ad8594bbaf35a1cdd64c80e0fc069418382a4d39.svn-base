@@ -1,0 +1,6 @@
+{
+  "name": "Office_Code",
+  "dataType": "string",
+  "sourceColumn": "Office_Code",
+  "sourceProviderType": "Char"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "3d2b5e7f-0ea6-45cc-98c6-0b41246493d4",
+  "fromTable": "Cal_AD_Premium",
+  "fromColumn": "Servicing Agent",
+  "toTable": "CURRENT_STRUCTURE",
+  "toColumn": "ID"
+}

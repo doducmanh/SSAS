@@ -1,0 +1,24 @@
+{
+  "name": "FactADHistory",
+  "source": {
+    "type": "query",
+    "query": [
+      "SELECT [DPO].[Main_AD_STRUCTURE_FULL].*",
+      "  FROM [PowerBI].[DPO].[Main_AD_STRUCTURE_FULL]",
+      "WHERE [DPO].[Main_AD_STRUCTURE_FULL].[ExplodedDate] >= '2020-01-01'",
+      "AND [DPO].[Main_AD_STRUCTURE_FULL].[ExplodedDate] <= GETDATE()"
+    ],
+    "dataSource": "SqlServer PowerBI"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [DPO].[Main_AD_STRUCTURE_FULL].*",
+        "  FROM [PowerBI].[DPO].[Main_AD_STRUCTURE_FULL]",
+        "WHERE [DPO].[Main_AD_STRUCTURE_FULL].[ExplodedDate] >= '2020-01-01'",
+        "AND [DPO].[Main_AD_STRUCTURE_FULL].[ExplodedDate] <= GETDATE()</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState><DesignerState><UseGenericDesigner>false</UseGenericDesigner><InternalDesignerState><QueryDefinition xmlns=\"http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational\"><SelectedColumns><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"ID\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"AD_Code\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"AD_Grade\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"Territory_Code\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"ExplodedDate\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"CDOIndex\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L1new\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L2new\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L3new\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L4new\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L5new\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L1\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L2\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L3\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L4\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L5\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"ADName\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L1Name\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L2Name\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L3Name\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L4Name\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"L5Name\" /><ColumnExpression Schema=\"DPO\" ColumnOwner=\"AD0\" ColumnName=\"Structure\" /></SelectedColumns></QueryDefinition></InternalDesignerState></DesignerState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+      ]
+    }
+  ]
+}

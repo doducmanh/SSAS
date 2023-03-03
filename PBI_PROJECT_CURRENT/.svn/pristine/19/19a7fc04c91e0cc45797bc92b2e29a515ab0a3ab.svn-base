@@ -1,0 +1,6 @@
+{
+  "name": "Fiscal Period",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Period",
+  "sourceProviderType": "Char"
+}

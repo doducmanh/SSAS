@@ -1,0 +1,13 @@
+{
+  "name": "FIRST_ISSUED_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "FIRST_ISSUED_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

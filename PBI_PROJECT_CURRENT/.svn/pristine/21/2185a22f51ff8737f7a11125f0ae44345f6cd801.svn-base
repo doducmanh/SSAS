@@ -1,0 +1,5 @@
+{
+  "name": "FPW - K2",
+  "expression": "DIVIDE([FPW - K2 Actual Personal], [FPW - K2 Expect Personal],0)",
+  "formatString": "G"
+}

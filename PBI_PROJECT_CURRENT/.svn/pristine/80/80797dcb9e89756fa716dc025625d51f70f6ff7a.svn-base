@@ -1,0 +1,6 @@
+{
+  "name": "APPLICATION_NUMBER",
+  "dataType": "string",
+  "sourceColumn": "APPLICATION_NUMBER",
+  "sourceProviderType": "Char"
+}

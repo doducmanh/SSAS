@@ -1,0 +1,20 @@
+{
+  "name": "FPL - K2 Actual",
+  "expression": [
+    "",
+    "VAR Agent = IF(HASONEFILTER(Cal_AD_Premium[Leader]),TOPN(1,VALUES(Cal_AD_Premium[Leader])),BLANK())",
+    "VAR filterdate = Max(DimDate[Date])",
+    "VAR L1 =  CALCULATE(",
+    "    SUM(Cal_AD_K2[Y2 ACTUAL PREM]),",
+    "    Agency_Structure[Leader]=Agent,",
+    "    --Agency_Structure[GRADE] = \"IC\",",
+    "    --Agency_Structure[Agent Status] = \"Enforce\",",
+    "    --Agency_Structure[Leader Grade] <> \"IC\",",
+    "    VALUE(Agency_Structure[ExplodedDate])= VALUE(FORMAT(today(), \"yyyyMM\")),",
+    "    Agency_Structure[SFC] <> \"S\"",
+    "    )",
+    "",
+    "RETURN L1"
+  ],
+  "formatString": "G"
+}

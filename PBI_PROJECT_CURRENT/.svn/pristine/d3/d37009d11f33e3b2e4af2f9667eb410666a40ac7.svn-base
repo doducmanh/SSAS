@@ -1,0 +1,27 @@
+{
+  "name": "Sale M50 - TS",
+  "expression": [
+    "",
+    "VAR Agent =",
+    "    IF (",
+    "        HASONEFILTER ( Agent_List[Agent_Number] ),",
+    "        TOPN ( 1, VALUES ( Agent_List[Agent_Number] ) ),",
+    "        BLANK ()",
+    "    )",
+    "VAR filterdate =",
+    "    MAX ( DimDate[Date] )",
+    "VAR L1 =",
+    "    CALCULATE (",
+    "        COUNTROWS ( DISTINCT ( Agency_Structure[Agent_Number] ) ),",
+    "        Agency_Structure[Leader] = Agent,",
+    "        Agency_Structure[GRADE] = \"IC\",",
+    "        Agency_Structure[Agent Status] = \"Enforce\",",
+    "        Agency_Structure[Leader Grade] <> \"IC\",",
+    "        Agency_Structure[ExplodedDate] = FORMAT ( filterdate, \"yyyyMM\" ),",
+    "        Agency_Structure[SFC] <> \"S\"",
+    "    )",
+    "RETURN",
+    "    L1"
+  ],
+  "formatString": "G"
+}

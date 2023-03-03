@@ -1,0 +1,7 @@
+{
+  "name": "d63aee51-c63e-487e-9335-501b76c4eff2",
+  "fromTable": "Cal_AFYP",
+  "fromColumn": "ID",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

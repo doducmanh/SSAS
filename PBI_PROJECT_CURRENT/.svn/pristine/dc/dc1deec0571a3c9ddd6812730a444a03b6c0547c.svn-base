@@ -1,0 +1,6 @@
+{
+  "name": "AD_Office",
+  "dataType": "string",
+  "sourceColumn": "AD_Office",
+  "sourceProviderType": "Char"
+}

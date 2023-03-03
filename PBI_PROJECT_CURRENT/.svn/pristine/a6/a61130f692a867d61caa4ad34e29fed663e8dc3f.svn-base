@@ -1,0 +1,13 @@
+{
+  "name": "ExplodedDate",
+  "dataType": "dateTime",
+  "sourceColumn": "ExplodedDate",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

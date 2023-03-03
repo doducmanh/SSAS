@@ -1,0 +1,622 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server Scripts1">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="10.9.2.64\pbirs:PHUHUNGLIFE\vagy0409">
+          <Created>2021-11-12T14:02:53.4118515+07:00</Created>
+          <Type>SQL</Type>
+          <Server>10.9.2.64\pbirs</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="10.9.2.65\pbirs:PHUHUNGLIFE\vagy0409">
+          <Created>2021-10-15T17:20:48.6039291+07:00</Created>
+          <Type>SQL</Type>
+          <Server>10.9.2.65\pbirs</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="10.9.2.70\PRODUCT:PHUHUNGLIFE\vagy0409">
+          <Created>2021-01-18T16:08:58.2940975+07:00</Created>
+          <Type>SQL</Type>
+          <Server>10.9.2.70\PRODUCT</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>PowerBI</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="10.9.3.65\pbirs:PHUHUNGLIFE\vagy0409">
+          <Created>2021-10-29T13:26:49.182312+07:00</Created>
+          <Type>SQL</Type>
+          <Server>10.9.3.65\pbirs</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="[AD_Appointed_Date].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_Appointed_Date].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AD_Security].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_Security].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AD_Structure_All_Date].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_Structure_All_Date].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AD_Structure_Exploded].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_Structure_Exploded].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AD_STRUCTURE_FULL].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_STRUCTURE_FULL].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AD_STRUCTURE_Start_End0].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_STRUCTURE_Start_End0].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AD_STRUCTURE0].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AD_STRUCTURE0].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AGENCY_AD_STRUCTURE].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AGENCY_AD_STRUCTURE].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AGENCY_Last_Issued_Policy].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AGENCY_Last_Issued_Policy].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AGENCY_SFC].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AGENCY_SFC].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AGENCY_STRUCTURE].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AGENCY_STRUCTURE].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Agency_Structure_Current].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Agency_Structure_Current].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Agency_Structure_Exploded].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Agency_Structure_Exploded].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AGENCY_STRUCTURE_Monthly].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AGENCY_STRUCTURE_Monthly].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[AGENT_INFO_CURRENT].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[AGENT_INFO_CURRENT].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Cal_Active_Agent_by_Month].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Cal_Active_Agent_by_Month].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Cal_AD_Agentstatus].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Cal_AD_Agentstatus].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Cal_AD_Pending].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Cal_AD_Pending].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Cal_CC_AA_Month].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Cal_CC_AA_Month].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DIRECT TEAM].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DIRECT TEAM].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_AD].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_AD].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_AD_DailyPolicy].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_AD_DailyPolicy].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_AD_Office_Code].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_AD_Office_Code].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_Agent].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_Agent].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_Agent_SFC].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_Agent_SFC].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_Office].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_Office].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_Policy_Transactions] .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_Policy_Transactions] .sql</FullPath>
+        </FileNode>
+        <FileNode Name="[DW_Policy_Transactions].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[DW_Policy_Transactions].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Policy_Servicing_Agent].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Policy_Servicing_Agent].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[Target_AD].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[Target_AD].sql</FullPath>
+        </FileNode>
+        <FileNode Name="[vPS_PREMIUM].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>[vPS_PREMIUM].sql</FullPath>
+        </FileNode>
+        <FileNode Name="_TOTAL FYP RYP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_TOTAL FYP RYP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD Headcount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD Headcount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD_Agency_History_Check.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD_Agency_History_Check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD_Office_Assigned.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD_Office_Assigned.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD_STRUCTURE_Exploded0.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD_STRUCTURE_Exploded0.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD_STRUCTURE_Start_End.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD_STRUCTURE_Start_End.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD_STRUCTURE2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD_STRUCTURE2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD0.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD0.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD00.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD00.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD2 - Duy Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD2 - Duy Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD3 - Duy Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD3 - Duy Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AD5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AD5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Agency_Structure_backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Agency_Structure_backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Agency_Wholeteam.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Agency_Wholeteam.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Bonus_AD_Structure_Current.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Bonus_AD_Structure_Current.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cal_AD_Agentstatus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Cal_AD_Agentstatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cal_AD_K2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Cal_AD_K2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cal_AD_Pending.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Cal_AD_Pending.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cal_AD_Premium.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Cal_AD_Premium.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DimOffice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DimOffice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DW_Territory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DW_Territory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FPL Structure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FPL Structure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FYC RYC Monthly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FYC RYC Monthly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintain FC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Maintain FC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Monthly - Case size by month.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Monthly - Case size by month.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Monthly - FYP of 3 month agents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Monthly - FYP of 3 month agents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Monthly - Recruitment Active.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Monthly - Recruitment Active.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Monthly - Rider Attachment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Monthly - Rider Attachment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Monthly - Rookie.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Monthly - Rookie.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REPORT - Nationwide Agency KPI.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>REPORT - Nationwide Agency KPI.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Same grade deep.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Same grade deep.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SFC Dynamic.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SFC Dynamic.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SFC List.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SFC List.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SFC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SFC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaction - AD Structure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Transaction - AD Structure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vClaim.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>vClaim.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_AD_2_CTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_AD_2_CTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_AD_CTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_AD_CTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_AD_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_AD_info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_AD_info_NotNull.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_AD_info_NotNull.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_agent_info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_agent_info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Area_AD_Agent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Area_AD_Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Area_AD_Agent_MK3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Area_AD_Agent_MK3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_DailySales_policies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_DailySales_policies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail_2019.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail_2019.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail_2020.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail_2020.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail_all.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail_all.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail_bk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail_bk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail_Minh.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail_Minh.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Detail_v2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Detail_v2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_DP_TAGENTPREMIUM_TEST_AFYP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.65\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.65\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_DP_TAGENTPREMIUM_TEST_AFYP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_DP_TAGENTPREMIUM_TEST_PS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_DP_TAGENTPREMIUM_TEST_PS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_Office.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_Office.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_premium.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.64\pbirs:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.64\pbirs</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_premium.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_premium_newAFYP_calculation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_premium_newAFYP_calculation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_PS_in_DP_POSubmitDA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_PS_in_DP_POSubmitDA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_PS_in_DP_TDAILYSALES_DA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.9.2.70\PRODUCT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.9.2.70\PRODUCT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>view_PS_in_DP_TDAILYSALES_DA.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

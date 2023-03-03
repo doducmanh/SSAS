@@ -1,0 +1,7 @@
+{
+  "name": "Appointed_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Appointed_Date",
+  "formatString": "General Date",
+  "sourceProviderType": "DBDate"
+}

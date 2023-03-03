@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Alternate Address",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "related(Main_AGENT_INFO_DA[Alternate_Address]) & \", \" &  related(Main_AGENT_INFO_DA[Alternate2])& \", \" &  related(Main_AGENT_INFO_DA[Alternate3])& \", \" &  related(Main_AGENT_INFO_DA[Alternate4])& \", \" &  related(Main_AGENT_INFO_DA[Alternate5])"
+}

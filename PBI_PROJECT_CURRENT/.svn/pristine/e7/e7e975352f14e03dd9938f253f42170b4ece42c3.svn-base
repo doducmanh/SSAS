@@ -1,0 +1,13 @@
+{
+  "name": "CREATED_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "CREATED_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

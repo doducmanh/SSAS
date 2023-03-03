@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Leader_Grade",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "RELATED(Agency_Structure[Leader Grade])"
+}

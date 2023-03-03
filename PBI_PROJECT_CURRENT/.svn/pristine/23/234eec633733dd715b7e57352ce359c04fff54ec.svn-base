@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Agent Status",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "'Agency_Structure'[Agent_Status]"
+}

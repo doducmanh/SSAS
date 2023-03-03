@@ -1,0 +1,7 @@
+{
+  "name": "dd92c2b0-0c71-48c4-8916-2bd4aa4c9e3e",
+  "fromTable": "Cal_AD_K2",
+  "fromColumn": "KeyADTime",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

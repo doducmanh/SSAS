@@ -1,0 +1,6 @@
+{
+  "name": "DM_Agent_Status",
+  "dataType": "string",
+  "sourceColumn": "DM_Agent_Status",
+  "sourceProviderType": "Char"
+}

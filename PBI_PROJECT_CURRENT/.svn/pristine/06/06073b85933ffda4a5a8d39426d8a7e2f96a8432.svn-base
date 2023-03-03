@@ -1,0 +1,6 @@
+{
+  "name": "TargetFYP",
+  "dataType": "double",
+  "sourceColumn": "TargetFYP",
+  "sourceProviderType": "Numeric"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "RISK_COMMENCE_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "RISK_COMMENCE_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

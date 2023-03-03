@@ -1,0 +1,6 @@
+{
+  "name": "LIFE",
+  "dataType": "string",
+  "sourceColumn": "LIFE",
+  "sourceProviderType": "Char"
+}

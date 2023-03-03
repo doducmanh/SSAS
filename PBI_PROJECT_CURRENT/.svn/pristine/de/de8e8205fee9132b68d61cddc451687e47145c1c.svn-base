@@ -1,0 +1,6 @@
+{
+  "name": "L8 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L8 Direct",
+  "sourceProviderType": "Integer"
+}

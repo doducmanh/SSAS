@@ -1,0 +1,7 @@
+{
+  "name": "Y2 Expected History",
+  "expression": [
+    " CALCULATE(SUM(Cal_AD_K2[Y2 EXPECTED PREM]),USERELATIONSHIP(Cal_AD_K2[ID_Historical],Agency_Structure[ID])",
+    ")"
+  ]
+}

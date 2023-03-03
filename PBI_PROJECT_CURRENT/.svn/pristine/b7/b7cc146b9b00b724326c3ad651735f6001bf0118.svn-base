@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "DUMMY",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": " SEARCH(\"DUMMY\",Cal_AD_Premium[SA Name],1,-1)"
+}

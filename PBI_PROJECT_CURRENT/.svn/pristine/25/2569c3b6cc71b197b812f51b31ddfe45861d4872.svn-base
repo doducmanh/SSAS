@@ -1,0 +1,13 @@
+{
+  "name": "Proposal_Receive_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Proposal_Receive_Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

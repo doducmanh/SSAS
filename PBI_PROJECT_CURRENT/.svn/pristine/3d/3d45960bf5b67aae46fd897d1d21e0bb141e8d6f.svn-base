@@ -1,0 +1,6 @@
+{
+  "type": "calculated",
+  "name": "Full_Month_TAPSU",
+  "dataType": "int64",
+  "expression": "IF(DAY(Cal_AD_Premium[SA_Date_Appointed_TAPSU])>10 && MONTH(Cal_AD_Premium[Collected Date]) = MONTH(Cal_AD_Premium[SA_Date_Appointed_TAPSU]) && YEAR(Cal_AD_Premium[Collected Date]) = YEAR(Cal_AD_Premium[SA_Date_Appointed_TAPSU]), FORMAT(EOMONTH(Cal_AD_Premium[Collected Date],0) +1,\"YYYYMM\"), Cal_AD_Premium[Cut-off Calendar])"
+}

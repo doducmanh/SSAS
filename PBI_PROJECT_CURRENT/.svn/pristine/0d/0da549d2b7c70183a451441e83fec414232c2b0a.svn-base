@@ -1,0 +1,13 @@
+{
+  "name": "Collected Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Collected Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

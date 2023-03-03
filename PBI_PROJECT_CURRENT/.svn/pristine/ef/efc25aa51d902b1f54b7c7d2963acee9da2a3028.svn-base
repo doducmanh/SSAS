@@ -1,0 +1,5 @@
+{
+  "name": "Total AFYP MTD",
+  "expression": "CALCULATE([Total AFYP],DATESMTD(DimDate[Date]))",
+  "formatString": "#,0"
+}

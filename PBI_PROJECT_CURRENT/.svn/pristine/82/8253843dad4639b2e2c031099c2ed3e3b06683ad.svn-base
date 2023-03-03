@@ -1,0 +1,6 @@
+{
+  "name": "ExplodedDate",
+  "dataType": "string",
+  "sourceColumn": "ExplodedDate",
+  "sourceProviderType": "Char"
+}

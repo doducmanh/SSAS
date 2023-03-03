@@ -1,0 +1,9 @@
+{
+  "name": "Cal_AFYP",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": " SELECT [DPO].[DP_TDAILYSALES_DA].* FROM [DPO].[DP_TDAILYSALES_DA] ",
+    "dataSource": "SqlServer PowerBI"
+  }
+}

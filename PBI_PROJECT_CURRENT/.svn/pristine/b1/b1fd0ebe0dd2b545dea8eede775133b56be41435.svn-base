@@ -1,0 +1,4 @@
+{
+  "name": "MDRT - MDRT - Title",
+  "expression": "SUMX(VALUES(Cal_AD_Premium[Servicing Agent]),[MDRT - MDRT - Count])"
+}

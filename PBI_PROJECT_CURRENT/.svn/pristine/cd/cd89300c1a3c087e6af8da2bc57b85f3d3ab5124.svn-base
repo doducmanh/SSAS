@@ -1,0 +1,10 @@
+{
+  "name": "Remaining Target 2",
+  "expression": [
+    "",
+    "Var FYP =  SUM(Cal_AD_Premium[FYPincTopup])",
+    "RETURN",
+    "IF([ADTarget] <> BLANK() && FYP < [ADTarget],[ADTarget] - FYP,BLANK())"
+  ],
+  "formatString": "G"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CLN_MOBILE",
+  "dataType": "string",
+  "sourceColumn": "CLN_MOBILE",
+  "sourceProviderType": "Char"
+}

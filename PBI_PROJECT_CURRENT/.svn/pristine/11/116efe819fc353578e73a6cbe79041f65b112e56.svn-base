@@ -1,0 +1,6 @@
+{
+  "name": "Age",
+  "dataType": "decimal",
+  "sourceColumn": "Age",
+  "sourceProviderType": "decimal"
+}

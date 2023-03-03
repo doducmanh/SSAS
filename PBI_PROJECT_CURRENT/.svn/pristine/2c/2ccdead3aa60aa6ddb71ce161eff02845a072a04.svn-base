@@ -1,0 +1,7 @@
+{
+  "name": "L4",
+  "dataType": "string",
+  "isHidden": true,
+  "sourceColumn": "L4",
+  "sourceProviderType": "WChar"
+}

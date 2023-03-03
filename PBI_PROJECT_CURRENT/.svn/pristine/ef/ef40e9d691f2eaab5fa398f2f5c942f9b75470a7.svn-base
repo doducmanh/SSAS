@@ -1,0 +1,4 @@
+{
+  "name": "Cal_FYPinclTopup",
+  "expression": " SUM(Cal_AD_Premium[FYPincTopup])"
+}

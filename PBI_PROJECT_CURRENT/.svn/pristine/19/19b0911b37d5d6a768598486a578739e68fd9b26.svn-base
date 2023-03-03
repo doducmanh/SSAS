@@ -1,0 +1,5 @@
+{
+  "name": "Total AFYP",
+  "expression": "SUM(Cal_AD_Premium[AFYP]) ",
+  "formatString": "#,0"
+}

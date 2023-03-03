@@ -1,0 +1,5 @@
+{
+  "name": "Last_Issued_Policy",
+  "dataType": "string",
+  "sourceColumn": "Last_Issued_Policy"
+}

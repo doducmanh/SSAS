@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Check_Issued_Date",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "INT(Cal_AD_Premium[Issued Date] = Cal_AD_Premium[Collected Date])"
+}

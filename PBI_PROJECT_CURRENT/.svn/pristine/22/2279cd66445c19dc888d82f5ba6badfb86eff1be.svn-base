@@ -1,0 +1,14 @@
+{
+  "name": "MDRT Q1 - Bonus",
+  "expression": [
+    "",
+    "SWITCH(",
+    "    TRUE()",
+    "    ,[MDRT Q1 - Title]=3,45000000",
+    "    ,[MDRT Q1 - Title]=2,21000000",
+    "    ,[MDRT Q1 - Title]=1,6000000",
+    ")",
+    ""
+  ],
+  "formatString": "G"
+}

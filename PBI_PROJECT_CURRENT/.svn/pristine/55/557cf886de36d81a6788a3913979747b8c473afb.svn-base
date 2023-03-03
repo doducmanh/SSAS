@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ENFORCE_MONTH",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": " if((EOMONTH(FactADHistory[ExplodedDate],0) >= FactADHistory[Appointed_Date] ) && (EOMONTH(FactADHistory[ExplodedDate],0) <= (IF(ISBLANK(FactADHistory[Terminated_Date]),EOMONTH(TODAY(),0),FactADHistory[Terminated_Date]))),1,0)"
+}

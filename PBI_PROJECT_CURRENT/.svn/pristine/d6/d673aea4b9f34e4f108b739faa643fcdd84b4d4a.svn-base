@@ -1,0 +1,7 @@
+{
+  "name": "511ad7cd-ac01-4a34-bbb6-2fb3ad262773",
+  "fromTable": "Cal_AD_Pending",
+  "fromColumn": "IDM",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

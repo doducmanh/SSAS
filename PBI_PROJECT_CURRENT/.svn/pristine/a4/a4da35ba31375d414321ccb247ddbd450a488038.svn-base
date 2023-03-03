@@ -1,0 +1,6 @@
+{
+  "name": "FM",
+  "dataType": "string",
+  "sourceColumn": "FM",
+  "sourceProviderType": "Char"
+}

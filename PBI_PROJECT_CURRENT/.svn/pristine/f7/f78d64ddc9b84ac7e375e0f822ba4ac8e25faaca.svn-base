@@ -1,0 +1,12 @@
+{
+  "name": "Terminated_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Terminated_Date",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

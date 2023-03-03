@@ -1,0 +1,5 @@
+{
+  "name": "Terminated_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Terminated_Date"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "SUBMIT_AMT",
+  "dataType": "decimal",
+  "sourceColumn": "SUBMIT_AMT",
+  "formatString": "\"\"#,0;(\"\"#,0);\"\"#,0",
+  "sourceProviderType": "Numeric",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Currency\" ThousandSeparator=\"True\"><Currency LCID=\"1033\" DisplayName=\"\" Symbol=\"\" PositivePattern=\"0\" NegativePattern=\"0\" /></Format>"
+    }
+  ]
+}

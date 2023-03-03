@@ -1,0 +1,13 @@
+{
+  "name": "Policy_Issue_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Policy_Issue_Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "name": "K2 by Structure",
+  "expression": "FORMAT(DIVIDE([Y2 Actual],[Y2 Expected],0),\"percent\")"
+}

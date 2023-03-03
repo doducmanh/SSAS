@@ -1,0 +1,9 @@
+{
+  "name": "Manpower EA",
+  "expression": [
+    " ",
+    "VAR filterdate = MAX(DimDate[Date])",
+    "RETURN",
+    "CALCULATE([Manpower Total],DimAgentSFC[Grade] = \"EA\", EOMONTH(DimAgentSFC[ExplodedDate],0) = EOMONTH(filterdate,0) )"
+  ]
+}

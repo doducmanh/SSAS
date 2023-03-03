@@ -1,0 +1,19 @@
+{
+  "name": "Hoi An - FYP Contest 4",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM(Cal_AD_Premium[FYP])",
+    "    ,Cal_AD_Premium[Proposal Receive Date] >= VALUE(\"2022/04/15\") &&    Cal_AD_Premium[Proposal Receive Date] <= VALUE(\"2022/04/29\")",
+    "    ,Cal_AD_Premium[Issued Date]<= VALUE(\"2022/04/30\")",
+    "    ,    Cal_AD_Premium[Main Product] <> \"UL04\"",
+    "    && Cal_AD_Premium[Main Product] <> \"UL03\"",
+    "    ,Cal_AD_Premium[Cross_Sales]<> \"CROSS_SALES\"",
+    "    ,Cal_AD_Premium[Policy Status] = \"IF\"",
+    "    ,Cal_AD_Premium[Compliance] <> 1",
+    "    ,Cal_AD_Premium[Transfer_Policy_Date] = BLANK())",
+    "",
+    ""
+  ],
+  "formatString": "G"
+}

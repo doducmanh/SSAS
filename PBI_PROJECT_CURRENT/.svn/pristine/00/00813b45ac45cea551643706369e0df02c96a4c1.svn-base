@@ -1,0 +1,5 @@
+{
+  "name": "Slicer - Structure",
+  "expression": "INT(VALUES(FactADHistory[ExplodedDate])) = [Slicer - Sales]",
+  "formatString": "G"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "ID_Historical",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_K2[AGENT NO] & FORMAT ( EDATE(Today(),-14), \"YYYYMM\" )"
+}

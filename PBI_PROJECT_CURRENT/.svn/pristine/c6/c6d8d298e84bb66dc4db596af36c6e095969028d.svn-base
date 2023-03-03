@@ -1,0 +1,8 @@
+{
+  "name": "Manpower(exclSFC)",
+  "expression": [
+    "[TotalManpower]",
+    "    - CALCULATE ( COUNTROWS ( 'DimAgentSFC' ), 'DimAgentSFC'[Check_SFC] = \"SFC\" )"
+  ],
+  "formatString": "G"
+}

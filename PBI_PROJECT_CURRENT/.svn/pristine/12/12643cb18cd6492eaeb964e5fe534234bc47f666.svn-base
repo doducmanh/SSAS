@@ -1,0 +1,12 @@
+{
+  "name": "Appointed_TAPSU",
+  "dataType": "dateTime",
+  "sourceColumn": "Appointed_TAPSU",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

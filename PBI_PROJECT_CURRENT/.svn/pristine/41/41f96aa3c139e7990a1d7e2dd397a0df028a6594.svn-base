@@ -1,0 +1,7 @@
+{
+  "name": "Last_Status_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Last_Status_Date",
+  "formatString": "General Date",
+  "sourceProviderType": "DBDate"
+}

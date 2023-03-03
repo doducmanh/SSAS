@@ -1,0 +1,10 @@
+{
+  "name": "# views (Issuing Agent Structure)",
+  "expression": [
+    " ",
+    "CALCULATE(",
+    "     sum(Cal_AD_Premium[AFYP]),",
+    "     Cal_AD_Premium[AFYP] > 0,",
+    "    USERELATIONSHIP(Cal_AD_Premium[IDIA],Agency_Structure[ID]))"
+  ]
+}

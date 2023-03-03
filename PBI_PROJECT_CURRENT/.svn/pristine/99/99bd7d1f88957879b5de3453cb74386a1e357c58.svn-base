@@ -1,0 +1,5 @@
+{
+  "name": "Age",
+  "dataType": "int64",
+  "sourceColumn": "Age"
+}

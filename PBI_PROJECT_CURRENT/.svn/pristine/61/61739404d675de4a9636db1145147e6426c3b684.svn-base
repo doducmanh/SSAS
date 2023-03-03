@@ -1,0 +1,4 @@
+{
+  "name": "AD Productivity",
+  "expression": "DIVIDE(SUM(Cal_AFYP[AFYP]),[Manpower AD],0)"
+}

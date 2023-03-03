@@ -1,0 +1,10 @@
+{
+  "name": "Sales vs target",
+  "expression": [
+    "",
+    "Var FYP =  sum(Cal_AD_Premium[FYPincTopup])",
+    "RETURN",
+    "FORMAT(IF([ADTarget]<> BLANK(),IF(ISBLANK(FYP)=TRUE,0,FYP)/[ADTarget],BLANK()),\"0.0%\")"
+  ],
+  "formatString": "G"
+}

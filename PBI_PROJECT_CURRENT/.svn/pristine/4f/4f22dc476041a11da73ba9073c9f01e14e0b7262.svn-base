@@ -1,0 +1,6 @@
+{
+  "name": "COMPONENT STATUS",
+  "dataType": "string",
+  "sourceColumn": "COMPONENT STATUS",
+  "sourceProviderType": "Char"
+}

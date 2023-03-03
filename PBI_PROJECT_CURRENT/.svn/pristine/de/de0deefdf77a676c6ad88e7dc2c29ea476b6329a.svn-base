@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "Remote Selling",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "IF(FactCSSubmission[PAYMENT_METHOD] = \"Remote selling\", \"Remote selling\", \"Other\")"
+}

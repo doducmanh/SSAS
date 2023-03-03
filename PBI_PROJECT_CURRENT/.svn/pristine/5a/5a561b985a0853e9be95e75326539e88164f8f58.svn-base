@@ -1,0 +1,6 @@
+{
+  "name": "Gender",
+  "dataType": "string",
+  "sourceColumn": "Gender",
+  "sourceProviderType": "Char"
+}

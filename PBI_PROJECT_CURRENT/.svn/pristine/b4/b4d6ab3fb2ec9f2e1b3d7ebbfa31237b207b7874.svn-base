@@ -1,0 +1,6 @@
+{
+  "name": "INDEX_LEADER",
+  "dataType": "int64",
+  "sourceColumn": "INDEX_LEADER",
+  "sourceProviderType": "Integer"
+}

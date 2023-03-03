@@ -1,0 +1,6 @@
+{
+  "name": "Servicing Agent",
+  "dataType": "string",
+  "sourceColumn": "Servicing Agent",
+  "sourceProviderType": "int"
+}

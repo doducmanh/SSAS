@@ -1,0 +1,12 @@
+{
+  "name": "Proposal Receive Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Proposal Receive Date",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

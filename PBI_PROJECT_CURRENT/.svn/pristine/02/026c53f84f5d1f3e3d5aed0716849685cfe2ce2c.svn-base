@@ -1,0 +1,11 @@
+{
+  "name": "Manpower Dummy",
+  "expression": [
+    " ",
+    "Var filterdate = MAX(DimDate[Date])",
+    "Return",
+    "CALCULATE(DISTINCTCOUNT(DimAgentSFC[Agent_Number]),",
+    "DimAgentSFC[DUMMY]=1,",
+    "DimAgentSFC[ENFORCE_MONTH] = 1)"
+  ]
+}

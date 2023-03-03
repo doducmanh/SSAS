@@ -1,0 +1,6 @@
+{
+  "name": "Area_Name",
+  "dataType": "string",
+  "sourceColumn": "Area_Name",
+  "sourceProviderType": "Char"
+}

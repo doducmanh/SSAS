@@ -1,0 +1,15 @@
+{
+  "name": "Agents Discipline List",
+  "dataView": "full",
+  "source": {
+    "type": "query",
+    "query": "SELECT CAST([DPO].[AC_Agents_Discipline_List].Cancel AS VARCHAR) AS Cancel FROM [DPO].[AC_Agents_Discipline_List]",
+    "dataSource": "SqlServer PowerBI"
+  },
+  "annotations": [
+    {
+      "name": "QueryEditorSerialization",
+      "value": "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [DPO].[AC_Agents_Discipline_List].Cancel FROM [DPO].[AC_Agents_Discipline_List]</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "POLICY ACKNOWLED",
+  "dataType": "dateTime",
+  "sourceColumn": "POLICY ACKNOWLED",
+  "formatString": "Short Date",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

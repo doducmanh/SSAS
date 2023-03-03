@@ -1,0 +1,5 @@
+{
+  "name": "Total CS LY",
+  "expression": "CALCULATE([Total CS MTD],SAMEPERIODLASTYEAR(DimDate[Date]))",
+  "formatString": "#,0"
+}

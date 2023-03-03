@@ -1,0 +1,17 @@
+{
+  "name": "Dim_POLICY_INFO",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": " SELECT [DPO].[Main_POLICY_INFO].* FROM [DPO].[Main_POLICY_INFO] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "Main_POLICY_INFO"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    }
+  ]
+}

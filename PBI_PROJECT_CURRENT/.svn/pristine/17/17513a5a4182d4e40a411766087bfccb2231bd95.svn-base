@@ -1,0 +1,5 @@
+{
+  "name": "Sale Team InDirect",
+  "expression": "[Sale Whole Team] - [Sale Team Direct]",
+  "formatString": "G"
+}

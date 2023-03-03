@@ -1,0 +1,17 @@
+{
+  "name": "AD_List",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": " SELECT [DPO].[DW_AD].* FROM [DPO].[DW_AD] "
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "DW_AD"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    }
+  ]
+}

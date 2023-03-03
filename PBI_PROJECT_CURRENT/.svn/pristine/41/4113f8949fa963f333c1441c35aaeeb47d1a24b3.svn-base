@@ -1,0 +1,5 @@
+{
+  "name": "Total AFYP LM",
+  "expression": "CALCULATE(SUM(Cal_AD_Premium[AFYP]),DATEADD(DimDate[Date],-1,MONTH))",
+  "formatString": "#,0"
+}

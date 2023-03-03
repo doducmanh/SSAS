@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "IDLeader",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Cal_AD_Premium[Leader] & Cal_AD_Premium[Cut-off Calendar]"
+}

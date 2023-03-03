@@ -1,0 +1,7 @@
+{
+  "name": "f303b408-6007-4b60-8698-48736a8344ad",
+  "fromTable": "Cal_Active_Agent_by_Month",
+  "fromColumn": "ID",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

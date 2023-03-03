@@ -1,0 +1,6 @@
+{
+  "name": "Parent_Supervisor_Name",
+  "dataType": "string",
+  "sourceColumn": "Parent_Supervisor_Name",
+  "sourceProviderType": "WChar"
+}

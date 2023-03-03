@@ -1,0 +1,6 @@
+{
+  "name": "Office",
+  "dataType": "string",
+  "sourceColumn": "Office",
+  "sourceProviderType": "Char"
+}

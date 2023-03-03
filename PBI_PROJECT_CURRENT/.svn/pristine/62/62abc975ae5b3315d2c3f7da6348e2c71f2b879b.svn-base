@@ -1,0 +1,6 @@
+{
+  "name": "FM_Agent_Status",
+  "dataType": "string",
+  "sourceColumn": "FM_Agent_Status",
+  "sourceProviderType": "Char"
+}

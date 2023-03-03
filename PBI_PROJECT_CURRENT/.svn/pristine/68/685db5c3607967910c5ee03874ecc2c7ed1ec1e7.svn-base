@@ -1,0 +1,4 @@
+{
+  "name": "Cal_FYP_no_Topup",
+  "expression": " sum(Cal_AD_Premium[FYP])"
+}

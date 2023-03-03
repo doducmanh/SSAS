@@ -1,0 +1,6 @@
+{
+  "name": "RD",
+  "dataType": "string",
+  "sourceColumn": "RD",
+  "sourceProviderType": "Char"
+}

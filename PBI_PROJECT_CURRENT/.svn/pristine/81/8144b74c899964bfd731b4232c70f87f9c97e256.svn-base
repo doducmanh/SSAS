@@ -1,0 +1,7 @@
+{
+  "name": "FIRST_PREMIUM",
+  "dataType": "decimal",
+  "sourceColumn": "FIRST_PREMIUM",
+  "formatString": "#,0",
+  "sourceProviderType": "Numeric"
+}

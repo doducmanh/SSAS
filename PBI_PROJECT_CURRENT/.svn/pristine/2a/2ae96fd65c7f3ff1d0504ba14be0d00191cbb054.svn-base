@@ -1,0 +1,7 @@
+{
+  "name": "ddd6a769-fb51-4c79-ab30-46f9e75ce539",
+  "fromTable": "Cal_Active_Agent_by_Month",
+  "fromColumn": "ID_DATE",
+  "toTable": "DimDate",
+  "toColumn": "Date"
+}

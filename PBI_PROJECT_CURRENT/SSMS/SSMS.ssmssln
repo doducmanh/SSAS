@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54D695D8-3FC1-47A3-8D60-959ECE458279}") = "Analysis Services Scripts4", "..\..\..\..\..\Documents\SQL Server Management Studio\Analysis Services Scripts4\Analysis Services Scripts4.ssmsasproj", "{3A5747D1-B8F5-4193-B739-88FD4FABDD44}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Scripts1", "..\..\sql_script\PowerBI_Scripts\SQL Server Scripts1.ssmssqlproj", "{53BE188B-5033-4EF9-8B47-8E751014F3AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED0C45C-B8FF-4791-A16B-2CB723891BC3}.Default|Default.ActiveCfg = Default
+		{53BE188B-5033-4EF9-8B47-8E751014F3AF}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD88E888-0DD0-45AE-BEF8-A1AAFB3915A2}
+	EndGlobalSection
+EndGlobal

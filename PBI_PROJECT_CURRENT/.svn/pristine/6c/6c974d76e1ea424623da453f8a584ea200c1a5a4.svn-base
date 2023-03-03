@@ -1,0 +1,4 @@
+{
+  "name": "CasePerActive",
+  "expression": " divide([CC], [AA],0)"
+}

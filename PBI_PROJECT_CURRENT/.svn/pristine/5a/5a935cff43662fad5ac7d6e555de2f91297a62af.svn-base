@@ -1,0 +1,25 @@
+{
+  "name": "Hierarchy AL Code",
+  "levels": [
+    {
+      "name": "GM",
+      "ordinal": 0,
+      "column": "GM"
+    },
+    {
+      "name": "RM",
+      "ordinal": 1,
+      "column": "RM"
+    },
+    {
+      "name": "DM",
+      "ordinal": 2,
+      "column": "DM"
+    },
+    {
+      "name": "FM",
+      "ordinal": 3,
+      "column": "FM"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Agents Discipline List",
+  "annotations": [
+    {
+      "name": "_TM_ExtProp_QueryDefinition",
+      "value": "SELECT [DPO].[AC_Agents_Discipline_List].Cancel FROM [DPO].[AC_Agents_Discipline_List]"
+    },
+    {
+      "name": "_TM_ExtProp_DbTableName",
+      "value": "AC_Agents_Discipline_List"
+    },
+    {
+      "name": "_TM_ExtProp_DbSchemaName",
+      "value": "DPO"
+    },
+    {
+      "name": "QueryEditorSerialization",
+      "value": "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [DPO].[AC_Agents_Discipline_List].Cancel FROM [DPO].[AC_Agents_Discipline_List]</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+    }
+  ]
+}

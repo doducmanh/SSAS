@@ -1,0 +1,6 @@
+{
+  "name": "L10 Direct",
+  "dataType": "int64",
+  "sourceColumn": "L10 Direct",
+  "sourceProviderType": "Integer"
+}

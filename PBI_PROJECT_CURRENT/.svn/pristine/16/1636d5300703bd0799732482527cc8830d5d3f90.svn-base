@@ -1,0 +1,9 @@
+{
+  "name": "# views (Current Structure)",
+  "expression": [
+    " ",
+    "CALCULATE(",
+    "     sum(Cal_AD_Premium[FYPincTopup]),",
+    "    USERELATIONSHIP(Cal_AD_Premium[ID_Current],Agency_Structure[ID]))"
+  ]
+}

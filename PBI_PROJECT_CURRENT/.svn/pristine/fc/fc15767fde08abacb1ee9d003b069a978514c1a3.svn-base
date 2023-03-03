@@ -1,0 +1,13 @@
+{
+  "name": "Last_Status_Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Last_Status_Date",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBDate",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

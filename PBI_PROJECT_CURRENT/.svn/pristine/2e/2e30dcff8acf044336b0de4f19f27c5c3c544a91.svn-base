@@ -1,0 +1,4 @@
+{
+  "name": "Sum_Prem",
+  "expression": " sum(FactCSSubmission[INSTALMENT_PREMIUM])"
+}

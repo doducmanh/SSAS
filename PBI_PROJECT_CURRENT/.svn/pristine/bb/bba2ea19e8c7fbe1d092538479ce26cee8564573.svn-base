@@ -1,0 +1,5 @@
+{
+  "name": "Marriage",
+  "dataType": "string",
+  "sourceColumn": "Marriage"
+}

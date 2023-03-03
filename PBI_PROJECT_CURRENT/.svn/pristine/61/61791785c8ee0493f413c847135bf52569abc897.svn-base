@@ -1,0 +1,7 @@
+{
+  "type": "calculated",
+  "name": "AD Name",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "related(FactADHistory[ADName])"
+}

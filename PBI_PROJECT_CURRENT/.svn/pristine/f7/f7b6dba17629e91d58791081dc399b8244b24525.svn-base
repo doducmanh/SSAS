@@ -1,0 +1,5 @@
+{
+  "name": "PO_ID",
+  "dataType": "string",
+  "sourceColumn": "PO_ID"
+}

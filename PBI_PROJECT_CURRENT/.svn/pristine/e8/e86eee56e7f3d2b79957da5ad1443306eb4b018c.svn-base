@@ -1,0 +1,13 @@
+{
+  "name": "EFFECTIVE_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "EFFECTIVE_DATE",
+  "formatString": "Short Date",
+  "sourceProviderType": "DBTimeStamp",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeShortDatePattern\" />"
+    }
+  ]
+}

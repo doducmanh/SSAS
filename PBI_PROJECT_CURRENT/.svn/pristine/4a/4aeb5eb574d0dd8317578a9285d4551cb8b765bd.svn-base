@@ -1,0 +1,5 @@
+{
+  "name": "Active_Agent",
+  "dataType": "int64",
+  "sourceColumn": "Active_Agent"
+}

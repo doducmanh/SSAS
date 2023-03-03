@@ -1,0 +1,10 @@
+{
+  "name": "% AFYP LY",
+  "expression": [
+    "",
+    "VAR CL = [Total AFYP MTD] - [Total AFYP LY]",
+    "RETURN",
+    "DIVIDE(CL,[Total AFYP LY])"
+  ],
+  "formatString": "0.00%;-0.00%;0.00%"
+}

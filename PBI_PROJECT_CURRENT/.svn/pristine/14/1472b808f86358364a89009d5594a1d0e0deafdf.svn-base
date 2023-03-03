@@ -1,0 +1,4 @@
+{
+  "name": "ADLookup",
+  "expression": "LOOKUPVALUE(DimADSecurity[AD_Code], DimADSecurity[ADUsername],USERNAME())"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Slicer - Sales",
+  "expression": "INT (NOT ISEMPTY(Cal_AD_Premium))",
+  "formatString": "G"
+}

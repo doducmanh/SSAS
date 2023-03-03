@@ -1,0 +1,7 @@
+{
+  "name": "ccf9eb2e-7dad-4ba5-9184-6211baa82bee",
+  "fromTable": "FactCSSubmission",
+  "fromColumn": "ID",
+  "toTable": "Agency_Structure",
+  "toColumn": "ID"
+}

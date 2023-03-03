@@ -1,0 +1,6 @@
+{
+  "name": "Client_Name",
+  "dataType": "string",
+  "sourceColumn": "Client_Name",
+  "sourceProviderType": "WChar"
+}

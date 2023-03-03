@@ -1,0 +1,7 @@
+{
+  "name": "69c7d3eb-6937-4cf9-803e-a073c881f7c5",
+  "fromTable": "DimAgent",
+  "fromColumn": "AD_Code",
+  "toTable": "DimAD",
+  "toColumn": "AD_Code"
+}

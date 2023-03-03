@@ -1,0 +1,6 @@
+{
+  "name": "ISO Weeknumber",
+  "dataType": "int64",
+  "sourceColumn": "ISO Weeknumber",
+  "sourceProviderType": "Integer"
+}

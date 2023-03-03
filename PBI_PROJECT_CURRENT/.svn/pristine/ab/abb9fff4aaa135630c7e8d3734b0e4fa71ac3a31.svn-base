@@ -1,0 +1,7 @@
+{
+  "name": "AA_Ratio",
+  "expression": [
+    " ",
+    "Format(DIVIDE([AA],[Manpower Total (excl SFC)],0),\"Percent\")"
+  ]
+}

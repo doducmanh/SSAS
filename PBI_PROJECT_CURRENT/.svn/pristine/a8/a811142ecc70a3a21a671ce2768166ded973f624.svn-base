@@ -1,0 +1,9 @@
+{
+  "name": "FPL - Case Size",
+  "expression": [
+    "",
+    "DIVIDE([FPL - Sale Team],[FPW - CC Personal],0)",
+    "--RETURN L1"
+  ],
+  "formatString": "G"
+}
